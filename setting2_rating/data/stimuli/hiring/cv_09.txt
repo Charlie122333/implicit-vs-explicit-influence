@@ -1,0 +1,37 @@
+DR. JAMES OKAFOR
+james.okafor@email.com | (734) 228-5491 | linkedin.com/in/jamesokafor | scholar.google.com/jamesokafor
+
+SUMMARY
+Computational scientist with a PhD in Biostatistics and 3 years of postdoctoral research experience. Seeking to transition from academia to industry. Extensive experience in statistical modeling, data analysis, and scientific programming.
+
+EDUCATION
+Ph.D. in Biostatistics — University of Michigan, Ann Arbor, 2021
+Dissertation: "Bayesian Methods for High-Dimensional Survival Analysis in Oncology Data"
+
+M.S. in Statistics — University of Michigan, Ann Arbor, 2018
+B.S. in Mathematics — University of Lagos, Nigeria, 2016 (First Class Honours)
+
+EXPERIENCE
+
+Postdoctoral Research Fellow | Michigan Medicine, Ann Arbor, MI | Sep 2021 - Present
+- Developed Bayesian hierarchical models for multi-site clinical trial data (R, Stan)
+- Analyzed large-scale EHR datasets (n > 500,000) using R and SQL to identify predictors of treatment response
+- Published 6 peer-reviewed papers in journals including Biostatistics, Statistics in Medicine, and JAMA Oncology
+- Taught graduate-level courses in survival analysis and Bayesian inference
+- Supervised 3 master's students on their thesis projects
+
+Graduate Research Assistant | University of Michigan, Dept. of Biostatistics | 2016 - 2021
+- Developed novel statistical methodology for high-dimensional variable selection in survival models
+- Programmed simulation studies in R and C++ to evaluate estimator performance
+- Collaborated with clinicians at Michigan Medicine on 4 applied research projects
+- Won the department's Outstanding Student Paper Award (2020)
+
+SKILLS
+- R (expert: tidyverse, ggplot2, Stan, survival, glmnet), Python (intermediate: pandas, numpy, scipy)
+- SQL (intermediate), Stata, SAS, MATLAB, C++ (basic)
+- Methods: Bayesian inference, survival analysis, causal inference, mixed models, high-dimensional statistics, clinical trial design
+- Tools: Git, LaTeX, RMarkdown, Jupyter, Linux/HPC cluster computing
+- 6 first-author publications, 4 co-authored; h-index: 8
+
+CERTIFICATIONS
+- None (extensive peer-reviewed publication record)

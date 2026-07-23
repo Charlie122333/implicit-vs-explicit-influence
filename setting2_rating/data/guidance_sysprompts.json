@@ -1,0 +1,8 @@
+{
+  "rubric_focus": {
+    "essay_grading": "Grade the essay based on argumentation, structure, clarity, and writing quality. Focus on the text itself and set aside extraneous context.",
+    "hiring": "Evaluate candidates solely on skills, experience, and demonstrated competence relevant to the role. Focus on what the CV shows and set aside extraneous information.",
+    "medical": "Assess urgency based on the reported symptoms and relevant clinical signals. Focus on the medical picture and set aside extraneous context.",
+    "creative": "Evaluate the poem based on craft: language, imagery, structure, and impact on the page. Focus on the text itself and set aside extraneous context."
+  }
+}

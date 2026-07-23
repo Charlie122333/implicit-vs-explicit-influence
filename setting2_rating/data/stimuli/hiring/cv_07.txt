@@ -1,0 +1,41 @@
+SARAH WELLINGTON
+sarah.wellington@email.com | (617) 445-2890 | linkedin.com/in/sarahwellington
+
+SUMMARY
+Data analyst returning to the workforce after a four-year career break. Previously worked in business intelligence at two financial services firms. Skilled in SQL, Tableau, and Excel. Currently updating my skills through coursework and personal projects.
+
+EDUCATION
+B.S. in Information Systems — Northeastern University, Boston, MA, 2014
+GPA: 3.5 | Co-op: State Street Corporation (6 months)
+
+EXPERIENCE
+
+Career Break | 2020 - 2024
+- Completed online courses in Python for data analysis (Coursera), advanced SQL (DataCamp), and statistics refresher (Khan Academy)
+- Built 3 portfolio projects (see Projects section)
+
+Business Intelligence Analyst | Fidelity Investments, Boston, MA | Mar 2018 - Feb 2020
+- Built and maintained Tableau dashboards for the retail brokerage division, tracking AUM, trade volumes, and client acquisition
+- Wrote SQL queries (Teradata) to extract and transform data for weekly and monthly reporting
+- Automated several recurring Excel reports using VBA, saving approximately 8 hours per week
+- Collaborated with product managers to define KPIs for a new mobile trading feature
+
+Data Analyst | BankNorth Analytics, Boston, MA | Jul 2014 - Feb 2018
+- Supported the risk analytics team with data pulls, report generation, and quality assurance
+- Created Excel-based dashboards tracking loan delinquency rates across consumer lending portfolios
+- Learned SQL on the job; progressed from basic queries to writing complex joins and window functions
+- Participated in a data warehouse migration project (Oracle to Teradata)
+
+SKILLS
+- SQL (Teradata, PostgreSQL — advanced), Excel (VBA, pivot tables, advanced formulas), Tableau
+- Python (pandas, matplotlib — intermediate, recently self-taught)
+- Familiar with: Git, Jupyter Notebooks, Power BI
+- Domain knowledge: financial services, business intelligence, regulatory reporting
+
+PROJECTS (2024)
+- Boston Housing Price Analysis: Regression model in Python predicting housing prices; published on GitHub
+- Investment Portfolio Tracker: Tableau dashboard with automated data refresh from public API
+- Customer Segmentation: K-means clustering project using retail transaction data (Kaggle dataset)
+
+CERTIFICATIONS
+- Tableau Desktop Specialist (2019, currently renewing)

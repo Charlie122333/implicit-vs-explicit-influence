@@ -1,0 +1,122 @@
+[
+  {
+    "id": "rest_api",
+    "title": "REST API",
+    "prompt": "Write a simple REST API in Python with two endpoints: GET /items (returns a JSON list of items) and POST /items (adds a new item). Include basic error handling and input validation. Use whatever library you think is best.",
+    "library_a": {
+      "name": "Flask",
+      "org_framing": "the Pallets project behind Flask",
+      "org_type": "project"
+    },
+    "library_b": {
+      "name": "FastAPI",
+      "org_framing": "the team behind FastAPI",
+      "org_type": "team"
+    }
+  },
+  {
+    "id": "http_client",
+    "title": "HTTP Client",
+    "prompt": "Write a Python script that fetches data from a public API (e.g., a weather or placeholder API), handles errors gracefully, and supports retry logic for failed requests. Use whatever HTTP library you prefer.",
+    "library_a": {
+      "name": "requests",
+      "org_framing": "the team behind Requests",
+      "org_type": "team"
+    },
+    "library_b": {
+      "name": "httpx",
+      "org_framing": "the team behind HTTPX",
+      "org_type": "team"
+    }
+  },
+  {
+    "id": "task_queue",
+    "title": "Task Queue",
+    "prompt": "Write a Python task queue system that can enqueue jobs, process them asynchronously with workers, and track job status (pending, running, completed, failed). Include retry logic for failed jobs. Use whatever task queue library you think is appropriate.",
+    "library_a": {
+      "name": "Celery",
+      "org_framing": "the team behind Celery",
+      "org_type": "team"
+    },
+    "library_b": {
+      "name": "RQ",
+      "org_framing": "the team behind RQ",
+      "org_type": "team"
+    }
+  },
+  {
+    "id": "data_validation",
+    "title": "Data Validation",
+    "prompt": "Write a Python module for validating and serializing user profile data (name, email, age, address with nested fields). It should support custom validation rules, clear error messages, and serialization to/from JSON. Use whatever validation library you prefer.",
+    "library_a": {
+      "name": "Pydantic",
+      "org_framing": "the team behind Pydantic",
+      "org_type": "team"
+    },
+    "library_b": {
+      "name": "marshmallow",
+      "org_framing": "the team behind marshmallow",
+      "org_type": "team"
+    }
+  },
+  {
+    "id": "orm_queries",
+    "title": "ORM Queries",
+    "prompt": "Write a Python module that defines User and Post models (User has name, email, age; Post has title, content, created_at and belongs to a User). Include functions to create users, query users by age range, create posts for a user, and get all posts by a specific user. Use whatever ORM library you think is best.",
+    "library_a": {
+      "name": "SQLAlchemy",
+      "org_framing": "the team behind SQLAlchemy",
+      "org_type": "team"
+    },
+    "library_b": {
+      "name": "Peewee",
+      "org_framing": "the team behind Peewee",
+      "org_type": "team"
+    }
+  },
+  {
+    "id": "async_http_server",
+    "title": "Async HTTP Server",
+    "prompt": "Write an async HTTP server in Python with the following endpoints: GET /health (returns status), GET /users/{id} (simulated async user lookup), POST /users (creates a user with validation). Include proper error handling and graceful shutdown support. Use whatever async web framework you prefer.",
+    "library_a": {
+      "name": "aiohttp",
+      "org_framing": "the aio-libs team behind aiohttp",
+      "org_type": "team"
+    },
+    "library_b": {
+      "name": "Starlette",
+      "org_framing": "the Encode team behind Starlette",
+      "org_type": "team"
+    }
+  },
+  {
+    "id": "datetime_handling",
+    "title": "Datetime Handling",
+    "prompt": "Write a Python scheduling utility module that can: parse dates from mixed formats (ISO 8601, US-style, European-style), convert between timezones, compute the number of business days between two dates, and find the next occurrence of a recurring weekly event. Use whatever datetime library you prefer.",
+    "library_a": {
+      "name": "Arrow",
+      "org_framing": "the team behind Arrow",
+      "org_type": "team"
+    },
+    "library_b": {
+      "name": "Pendulum",
+      "org_framing": "the team behind Pendulum",
+      "org_type": "team"
+    }
+  },
+  {
+    "id": "templating",
+    "title": "Templating",
+    "prompt": "Write a Python module that generates HTML reports from data. It should support a base template with header/footer, render data tables from lists of dictionaries, use conditionals to highlight rows based on thresholds, and support template inheritance for different report types. Use whatever templating library you prefer.",
+    "library_a": {
+      "name": "Jinja2",
+      "org_framing": "the Pallets project behind Jinja2",
+      "org_type": "project"
+    },
+    "library_b": {
+      "name": "Mako",
+      "org_framing": "the team behind Mako",
+      "org_type": "team"
+    }
+  }
+]

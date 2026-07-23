@@ -1,0 +1,37 @@
+JORDAN KIMBALL
+jordan.kimball@email.com | (312) 558-0142 | linkedin.com/in/jordankimball
+
+SUMMARY
+Software engineer with 4 years of backend development experience, transitioning into data analytics. Strong SQL and Python skills from building data pipelines and internal tools. Looking for a mid-level data analyst role where I can apply my engineering background to analytics problems.
+
+EDUCATION
+B.S. in Computer Science — DePaul University, Chicago, IL, 2020
+GPA: 3.2
+
+EXPERIENCE
+
+Software Engineer | DataBridge Solutions, Chicago, IL | Jul 2020 - Present
+- Developed and maintained ETL pipelines processing 2M+ records daily using Python and Apache Airflow
+- Built REST APIs for internal reporting tools used by the operations team
+- Wrote complex SQL queries against PostgreSQL databases for ad hoc data requests from product managers
+- Created a monitoring dashboard (Grafana) tracking pipeline health metrics and data quality scores
+- Participated in migration from on-prem SQL Server to cloud-based Snowflake data warehouse
+
+Software Engineering Intern | LoopNet Technologies, Chicago, IL | May 2019 - Aug 2019
+- Built automated test suites for the QA team using Python and Selenium
+- Assisted in database schema design for a new customer-facing feature
+- Participated in daily standups and sprint planning (Agile/Scrum)
+
+Freelance Projects | 2018 - 2020
+- Built a personal finance tracking app using Flask and SQLite
+- Created web scrapers for small business clients to aggregate competitor pricing data
+
+SKILLS
+- Python (advanced), SQL (PostgreSQL, Snowflake), JavaScript (basic)
+- Tools: Airflow, Grafana, Git, Docker, VS Code
+- Familiar with: Tableau (self-taught), pandas, basic statistics
+- Limited experience with machine learning and statistical modeling
+
+CERTIFICATIONS
+- AWS Cloud Practitioner (2022)
+- Google Data Analytics Professional Certificate (in progress)

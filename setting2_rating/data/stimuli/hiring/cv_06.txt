@@ -1,0 +1,38 @@
+MARIA DELGADO
+maria.delgado@email.com | (210) 334-9021 | linkedin.com/in/mariadelgado
+
+SUMMARY
+Former high school math teacher transitioning into data analytics. Completed a data analytics bootcamp and have been building projects and freelancing for the past year. Strong quantitative foundation and experience explaining complex concepts to diverse audiences.
+
+EDUCATION
+Data Analytics Bootcamp — General Assembly, Remote, 2024 (12 weeks)
+Coursework: SQL, Python, Tableau, statistics, machine learning fundamentals
+
+M.Ed. in Mathematics Education — University of Texas at San Antonio, 2017
+B.S. in Mathematics — Texas State University, 2015
+
+EXPERIENCE
+
+Freelance Data Analyst | Self-Employed | Jan 2024 - Present
+- Built Tableau dashboards for 3 small business clients tracking sales, inventory, and customer metrics
+- Performed customer churn analysis for a local SaaS company using Python (pandas, scikit-learn); identified 4 key retention drivers
+- Wrote SQL queries to clean and consolidate client data from multiple sources (CSV, Google Sheets, MySQL)
+
+Math Teacher | Roosevelt High School, San Antonio, TX | Aug 2017 - Jun 2023
+- Taught Algebra II, Pre-Calculus, and AP Statistics to classes of 25-35 students
+- Developed data-driven approach to tracking student performance; created spreadsheet dashboards monitoring grades, attendance, and test score trends
+- Served as department data lead, analyzing standardized test results to identify areas for curriculum improvement
+- Named Teacher of the Year (2021); consistently rated in top 10% of campus evaluations
+
+Math Tutor | Mathnasium, San Antonio, TX | 2015 - 2017
+- Tutored students grades 6-12 in algebra, geometry, and statistics
+
+SKILLS
+- SQL (MySQL, intermediate), Python (pandas, matplotlib, basic scikit-learn), Tableau, Excel (advanced)
+- Statistics: hypothesis testing, regression, ANOVA, descriptive statistics
+- Strong communication and presentation skills from 6 years of teaching
+- Familiar with: Git, Jupyter Notebooks, Google BigQuery
+
+PROJECTS
+- School District Analysis (portfolio project): Analyzed public Texas education data to identify factors correlated with student achievement; presented findings in a Tableau story
+- Austin Housing Market Dashboard: Built interactive Tableau dashboard using Zillow API data

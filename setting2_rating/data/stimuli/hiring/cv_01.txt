@@ -1,0 +1,36 @@
+ALEX MORGAN
+alex.morgan@email.com | (555) 312-4789 | linkedin.com/in/alexmorgan
+
+SUMMARY
+Data analyst with 6 years of experience in reporting, SQL-based data pipelines, and dashboard development. Looking for a mid-level role where I can contribute to data-driven decision-making.
+
+EDUCATION
+B.A. in Statistics — University of Wisconsin-Milwaukee, 2018
+GPA: 3.4 | Relevant coursework: Regression Analysis, Database Systems, Survey Methods
+
+EXPERIENCE
+
+Data Analyst | Midwest Health Partners, Milwaukee, WI | Jan 2021 - Present
+- Built and maintained Tableau dashboards tracking patient intake, wait times, and satisfaction scores across 12 clinic locations
+- Wrote SQL queries to consolidate data from three legacy systems into a unified reporting layer, reducing monthly report prep time by ~40%
+- Assisted in an A/B test of a new appointment scheduling flow; prepared the analysis deck for leadership
+- Respond to ad hoc data requests from clinical and operations teams
+
+Junior Data Analyst | RetailScope Analytics, Chicago, IL | Jun 2019 - Dec 2020
+- Supported the analytics team by pulling weekly sales and inventory reports for ~200 retail clients
+- Created Excel-based templates for quarterly business reviews
+- Helped migrate a set of recurring reports from Excel to Tableau
+- Participated in a cross-functional project to standardize product category taxonomy
+
+Data Intern | City of Milwaukee, Office of Budget & Management | May 2018 - May 2019
+- Cleaned and organized datasets for the city's open data portal
+- Assisted with visualizations for the annual budget presentation
+- Learned to use Python (pandas) for basic data cleaning tasks
+
+SKILLS
+- SQL (advanced), Python (pandas, basic scripting), Tableau, Excel (pivot tables, VLOOKUP, macros)
+- Familiar with: Git, Jupyter Notebooks, basic R
+- Comfortable presenting findings to non-technical stakeholders
+
+CERTIFICATIONS
+- Tableau Desktop Specialist (2021)

@@ -1,0 +1,36 @@
+PRIYA SHARMA
+priya.sharma@email.com | (415) 709-2331 | linkedin.com/in/priyasharma | github.com/psharma-data
+
+SUMMARY
+Senior data analyst with 5 years of experience in product analytics, experimentation, and data infrastructure at scale. Skilled in SQL, Python, and statistical modeling. Looking for a mid-level or senior role on a data team focused on product-driven decision-making.
+
+EDUCATION
+M.S. in Statistics — Stanford University, 2021
+B.S. in Mathematics — UC Berkeley, 2019 (Magna Cum Laude)
+
+EXPERIENCE
+
+Data Analyst II | Google, Mountain View, CA | Aug 2021 - Present
+- Designed and analyzed A/B tests for Google Maps features, supporting product decisions affecting 1B+ monthly users
+- Built automated anomaly detection pipeline in Python (pandas, scipy) that reduced time-to-detection for metric regressions by 60%
+- Developed Looker dashboards used by 3 product teams for weekly business reviews; standardized KPI definitions across teams
+- Led a cross-functional analysis of user retention drivers that informed the H2 2023 product roadmap
+- Mentored 2 junior analysts on SQL best practices and experiment design
+
+Data Science Intern | Stripe, San Francisco, CA | Jun 2020 - Sep 2020
+- Built a churn prediction model (logistic regression + gradient boosting) for SMB merchants; model deployed to production with 0.82 AUC
+- Automated weekly fraud reporting pipeline, eliminating 5 hours of manual work per analyst per week
+- Presented findings to the Risk team leadership; recommendations adopted for Q4 fraud policy updates
+
+Research Assistant | Stanford Statistics Department | Sep 2019 - Jun 2021
+- Assisted with research on causal inference methods for observational studies
+- Co-authored a workshop paper on doubly-robust estimators (presented at JSM 2021)
+
+SKILLS
+- SQL (expert), Python (pandas, numpy, scipy, scikit-learn, matplotlib), R
+- Tools: Looker, Tableau, BigQuery, Jupyter, Git, Airflow
+- Methods: A/B testing, causal inference, regression modeling, time-series analysis, survival analysis
+- Strong communicator; experienced presenting to both technical and non-technical audiences
+
+CERTIFICATIONS
+- Google Advanced Data Analytics Certificate (2022)

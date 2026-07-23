@@ -1,0 +1,18 @@
+# Run outputs / generated traces (never commit results)
+**/logs/
+**/results/
+*.eval
+
+# Local secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

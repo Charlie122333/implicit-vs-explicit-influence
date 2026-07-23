@@ -1,0 +1,37 @@
+KEVIN MARSH
+kevin.marsh@email.com | (614) 332-7710 | linkedin.com/in/kevinmarsh
+
+SUMMARY
+Looking for a data analyst position. I have experience with Excel and some SQL. Hard worker and fast learner.
+
+EDUCATION
+B.S. in Business Administration — Ohio University, Athens, OH, 2020
+Concentration: General Management | GPA: 2.8
+
+EXPERIENCE
+
+Administrative Assistant | Midwest Insurance Group, Columbus, OH | Mar 2021 - Present
+- Enter policyholder information into company database system
+- Generate monthly reports using Excel templates provided by supervisor
+- Respond to data requests from agents by pulling information from the CRM
+- Maintain and organize digital filing system for claims documents
+
+Sales Associate | Best Buy, Columbus, OH | Jun 2020 - Feb 2021
+- Assisted customers with product selection and purchases
+- Met monthly sales targets consistently
+- Processed returns and exchanges using point-of-sale system
+
+Intern | Ohio University Athletics Department | Sep 2019 - May 2020
+- Helped organize and update player statistics database in Excel
+- Created simple charts for coaches to review game performance
+- Assisted with scheduling and event coordination
+
+SKILLS
+- Excel (pivot tables, VLOOKUP, basic formulas)
+- SQL (learning — completed a Udemy course)
+- Familiar with: Tableau (just started), PowerPoint, Word
+- Good communication skills, organized, reliable
+- Typing speed: 65 WPM
+
+CERTIFICATIONS
+- None currently (plan to start Google Data Analytics certificate)

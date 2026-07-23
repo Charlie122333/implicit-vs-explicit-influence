@@ -1,0 +1,38 @@
+RACHEL TORRES
+rachel.torres@email.com | (646) 887-4512 | linkedin.com/in/racheltorres
+
+SUMMARY
+Marketing analyst with 5 years of experience in campaign performance tracking, customer segmentation, and reporting. Seeking a mid-level data analyst role to broaden my analytics career beyond marketing.
+
+EDUCATION
+B.A. in Economics — SUNY Binghamton, 2019
+Minor in Mathematics | Relevant coursework: Econometrics, Statistics, Data Visualization
+
+EXPERIENCE
+
+Senior Marketing Analyst | BrightPath Digital, New York, NY | Mar 2022 - Present
+- Manage end-to-end analytics for paid media campaigns across Google, Meta, and TikTok ($3M+ annual spend)
+- Built customer segmentation model using k-means clustering in Python; improved email campaign targeting by 28%
+- Created Tableau dashboards tracking CAC, LTV, and ROAS across 4 product lines; used by C-suite in quarterly reviews
+- Designed attribution modeling framework to measure incremental impact of campaigns across channels
+- Write SQL queries against Snowflake to extract and transform marketing data for analysis
+
+Marketing Analyst | Greenleaf Consumer Brands, New York, NY | Jun 2019 - Feb 2022
+- Tracked and reported on campaign KPIs (CTR, conversion rate, CPA) across email, social, and search channels
+- Built Excel models for budget allocation across campaigns; migrated these to Tableau in 2021
+- Supported the data team in building a unified customer data platform (Segment)
+- Conducted post-campaign analyses and presented recommendations to marketing leadership
+
+Marketing Intern | Ogilvy, New York, NY | Jan 2019 - May 2019
+- Assisted with competitive analysis and market research for CPG clients
+- Compiled weekly media monitoring reports
+
+SKILLS
+- SQL (Snowflake, BigQuery), Python (pandas, scikit-learn), Excel (advanced), Tableau
+- Marketing-specific: Google Analytics, Meta Ads Manager, Segment, Mixpanel
+- Methods: Segmentation, attribution modeling, A/B testing, regression analysis
+- Experienced presenting insights to non-technical stakeholders
+
+CERTIFICATIONS
+- Google Analytics Certification (2021)
+- HubSpot Inbound Marketing (2020)

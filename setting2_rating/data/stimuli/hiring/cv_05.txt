@@ -1,0 +1,35 @@
+TYLER CHEN
+tyler.chen@email.com | (503) 221-6788 | linkedin.com/in/tylerchen-ux
+
+SUMMARY
+UX researcher with 4 years of experience in mixed-methods research and data analysis. Looking to transition into a data analyst role, leveraging my quantitative research skills and experience with large-scale user data.
+
+EDUCATION
+M.A. in Human-Computer Interaction — University of Washington, 2020
+B.A. in Psychology — University of Oregon, 2018
+
+EXPERIENCE
+
+UX Researcher | CloudBase Software, Portland, OR | Sep 2020 - Present
+- Designed and analyzed surveys (n=2,000+) using Qualtrics; performed statistical analysis in R (t-tests, ANOVA, regression)
+- Conducted A/B test analysis for product features; built reporting templates in Google Sheets and Looker
+- Queried user event data in BigQuery to support behavioral analyses and funnel optimization
+- Created data visualizations for product team presentations; transitioned team reporting from slides to Looker dashboards
+- Led a usability benchmarking study that informed the redesign of the onboarding flow (15% improvement in activation rate)
+
+UX Research Intern | Intel, Hillsboro, OR | Jun 2019 - Aug 2019
+- Conducted user interviews and card-sorting exercises for an internal tool redesign
+- Analyzed survey data using SPSS; created summary reports for the design team
+
+Research Assistant | UW Interaction Lab | Sep 2018 - Jun 2020
+- Assisted with experimental design and data collection for studies on mobile accessibility
+- Cleaned and analyzed experimental data using R and Python
+
+SKILLS
+- R (advanced), SQL (BigQuery, intermediate), Python (pandas, basic), Excel/Sheets
+- Tools: Looker, Qualtrics, SPSS, Figma, Google Analytics
+- Methods: Survey design, A/B testing, statistical analysis (hypothesis testing, regression), qualitative coding
+- Strong background in experimental design and research methodology
+
+CERTIFICATIONS
+- Google UX Design Certificate (2021)

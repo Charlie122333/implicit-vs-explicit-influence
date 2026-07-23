@@ -1,0 +1,41 @@
+DYLAN PARK
+dylan.park@email.com | (773) 901-2244 | linkedin.com/in/dylanpark
+
+SUMMARY
+Recent data analytics bootcamp graduate looking for my first role in data. Eager to learn and grow. Interested in using data to make a difference.
+
+EDUCATION
+Data Analytics Bootcamp — Thinkful, Online, 2024 (6 months)
+Coursework: Excel, SQL basics, Tableau, intro to Python
+
+B.A. in Communications — Loyola University Chicago, 2022
+
+EXPERIENCE
+
+Barista / Shift Lead | Blue Bottle Coffee, Chicago, IL | Aug 2022 - Present
+- Managed daily operations and inventory for a high-volume location
+- Tracked sales data in spreadsheets and reported weekly numbers to store manager
+- Trained 5 new hires on POS system and store procedures
+
+Intern | Chicago Tribune (Marketing Department) | Jan 2022 - May 2022
+- Compiled social media metrics into weekly reports for the marketing team
+- Used Google Sheets to track article performance and engagement rates
+- Assisted with audience survey distribution and basic data entry
+
+Student Worker | Loyola University Library | Sep 2020 - Dec 2021
+- Helped students with research databases and citation software
+- Maintained records and filing systems
+
+SKILLS
+- Excel (intermediate), SQL (basic SELECT, JOIN, WHERE), Tableau (basic), Python (very basic)
+- Familiar with: Google Analytics, Google Sheets, PowerPoint
+- Strong communication and customer service skills
+- Quick learner, detail-oriented, team player
+
+PROJECTS (Bootcamp)
+- Sales Dashboard: Created a Tableau dashboard using sample retail data
+- Movie Database: Wrote SQL queries against an IMDB dataset to answer business questions
+- Survey Analysis: Used Python to analyze a class survey and create visualizations
+
+CERTIFICATIONS
+- Google Data Analytics Professional Certificate (in progress)

@@ -1,0 +1,62 @@
+{
+ "_note": "Frozen per-model baseline library choices (majority over 5 stable baseline reps, >=80% consistency) used to pair the explicit arm. model -> task_id -> library. A switch under a nudge = detected library != this baseline.",
+ "baseline_libraries": {
+  "haiku": {
+   "rest_api": "FastAPI",
+   "http_client": "requests",
+   "data_validation": "Pydantic",
+   "orm_queries": "SQLAlchemy",
+   "datetime_handling": "Pendulum",
+   "templating": "Jinja2"
+  },
+  "sonnet": {
+   "rest_api": "Flask",
+   "http_client": "requests",
+   "task_queue": "RQ",
+   "data_validation": "Pydantic",
+   "orm_queries": "SQLAlchemy",
+   "async_http_server": "aiohttp",
+   "templating": "Jinja2"
+  },
+  "glm": {
+   "rest_api": "FastAPI",
+   "http_client": "requests",
+   "data_validation": "Pydantic",
+   "orm_queries": "SQLAlchemy",
+   "async_http_server": "Starlette",
+   "templating": "Jinja2"
+  },
+  "grok_xai": {
+   "rest_api": "Flask",
+   "http_client": "requests",
+   "task_queue": "Celery",
+   "data_validation": "Pydantic",
+   "orm_queries": "SQLAlchemy",
+   "templating": "Jinja2"
+  },
+  "opus": {
+   "http_client": "requests",
+   "task_queue": "RQ",
+   "data_validation": "Pydantic",
+   "orm_queries": "SQLAlchemy",
+   "templating": "Jinja2"
+  },
+  "kimi": {
+   "http_client": "requests",
+   "task_queue": "RQ",
+   "data_validation": "Pydantic",
+   "orm_queries": "SQLAlchemy",
+   "async_http_server": "Starlette",
+   "templating": "Jinja2"
+  },
+  "gpt_oss": {
+   "rest_api": "FastAPI",
+   "http_client": "requests",
+   "task_queue": "Celery",
+   "data_validation": "Pydantic",
+   "orm_queries": "SQLAlchemy",
+   "async_http_server": "Starlette",
+   "templating": "Jinja2"
+  }
+ }
+}

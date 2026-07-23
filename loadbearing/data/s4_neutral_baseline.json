@@ -1,0 +1,497 @@
+{
+  "rest_api": {
+    "haiku": {
+      "choice": "FastAPI",
+      "consistency": 0.6,
+      "n": 10,
+      "dist": {
+        "Flask": 4,
+        "FastAPI": 6
+      }
+    },
+    "kimi": {
+      "choice": "FastAPI",
+      "consistency": 1.0,
+      "n": 10,
+      "dist": {
+        "FastAPI": 10
+      }
+    },
+    "glm": {
+      "choice": "FastAPI",
+      "consistency": 1.0,
+      "n": 10,
+      "dist": {
+        "FastAPI": 10
+      }
+    },
+    "sonnet": {
+      "choice": "FastAPI",
+      "consistency": 0.7,
+      "n": 10,
+      "dist": {
+        "FastAPI": 7,
+        "Flask": 3
+      }
+    },
+    "opus": {
+      "choice": "FastAPI",
+      "consistency": 1.0,
+      "n": 10,
+      "dist": {
+        "FastAPI": 10
+      }
+    },
+    "gpt_oss": {
+      "choice": "FastAPI",
+      "consistency": 1.0,
+      "n": 10,
+      "dist": {
+        "FastAPI": 10
+      }
+    },
+    "grok_xai": {
+      "choice": "FastAPI",
+      "consistency": 1.0,
+      "n": 10,
+      "dist": {
+        "FastAPI": 10
+      }
+    }
+  },
+  "http_client": {
+    "haiku": {
+      "choice": "requests",
+      "consistency": 1.0,
+      "n": 10,
+      "dist": {
+        "requests": 10
+      }
+    },
+    "kimi": {
+      "choice": "httpx",
+      "consistency": 0.6,
+      "n": 10,
+      "dist": {
+        "requests": 4,
+        "httpx": 6
+      }
+    },
+    "glm": {
+      "choice": "requests",
+      "consistency": 0.7,
+      "n": 10,
+      "dist": {
+        "requests": 7,
+        "httpx": 3
+      }
+    },
+    "sonnet": {
+      "choice": "requests",
+      "consistency": 1.0,
+      "n": 10,
+      "dist": {
+        "requests": 10
+      }
+    },
+    "opus": {
+      "choice": "requests",
+      "consistency": 0.9,
+      "n": 10,
+      "dist": {
+        "requests": 9,
+        "httpx": 1
+      }
+    },
+    "gpt_oss": {
+      "choice": "requests",
+      "consistency": 0.9,
+      "n": 10,
+      "dist": {
+        "requests": 9,
+        "httpx": 1
+      }
+    },
+    "grok_xai": {
+      "choice": "requests",
+      "consistency": 1.0,
+      "n": 10,
+      "dist": {
+        "requests": 10
+      }
+    }
+  },
+  "task_queue": {
+    "haiku": {
+      "choice": "RQ",
+      "consistency": 0.9,
+      "n": 10,
+      "dist": {
+        "RQ": 9,
+        "Celery": 1
+      }
+    },
+    "kimi": {
+      "choice": "RQ",
+      "consistency": 0.6,
+      "n": 10,
+      "dist": {
+        "Celery": 4,
+        "RQ": 6
+      }
+    },
+    "glm": {
+      "choice": "RQ",
+      "consistency": 0.8,
+      "n": 10,
+      "dist": {
+        "RQ": 8,
+        "Celery": 2
+      }
+    },
+    "sonnet": {
+      "choice": "RQ",
+      "consistency": 0.6,
+      "n": 10,
+      "dist": {
+        "RQ": 6,
+        "Celery": 4
+      }
+    },
+    "opus": {
+      "choice": "RQ",
+      "consistency": 0.9,
+      "n": 10,
+      "dist": {
+        "RQ": 9,
+        "Celery": 1
+      }
+    },
+    "gpt_oss": {
+      "choice": "RQ",
+      "consistency": 0.875,
+      "n": 8,
+      "dist": {
+        "RQ": 7,
+        "Celery": 1
+      }
+    },
+    "grok_xai": {
+      "choice": "Celery",
+      "consistency": 0.8,
+      "n": 10,
+      "dist": {
+        "Celery": 8,
+        "RQ": 2
+      }
+    }
+  },
+  "data_validation": {
+    "haiku": {
+      "choice": "Pydantic",
+      "consistency": 1.0,
+      "n": 10,
+      "dist": {
+        "Pydantic": 10
+      }
+    },
+    "kimi": {
+      "choice": "Pydantic",
+      "consistency": 1.0,
+      "n": 10,
+      "dist": {
+        "Pydantic": 10
+      }
+    },
+    "glm": {
+      "choice": "Pydantic",
+      "consistency": 1.0,
+      "n": 10,
+      "dist": {
+        "Pydantic": 10
+      }
+    },
+    "sonnet": {
+      "choice": "Pydantic",
+      "consistency": 1.0,
+      "n": 10,
+      "dist": {
+        "Pydantic": 10
+      }
+    },
+    "opus": {
+      "choice": "Pydantic",
+      "consistency": 1.0,
+      "n": 10,
+      "dist": {
+        "Pydantic": 10
+      }
+    },
+    "gpt_oss": {
+      "choice": "Pydantic",
+      "consistency": 1.0,
+      "n": 10,
+      "dist": {
+        "Pydantic": 10
+      }
+    },
+    "grok_xai": {
+      "choice": "Pydantic",
+      "consistency": 1.0,
+      "n": 10,
+      "dist": {
+        "Pydantic": 10
+      }
+    }
+  },
+  "orm_queries": {
+    "haiku": {
+      "choice": "SQLAlchemy",
+      "consistency": 1.0,
+      "n": 10,
+      "dist": {
+        "SQLAlchemy": 10
+      }
+    },
+    "kimi": {
+      "choice": "SQLAlchemy",
+      "consistency": 0.8888888888888888,
+      "n": 9,
+      "dist": {
+        "SQLAlchemy": 8,
+        "Peewee": 1
+      }
+    },
+    "glm": {
+      "choice": "SQLAlchemy",
+      "consistency": 1.0,
+      "n": 10,
+      "dist": {
+        "SQLAlchemy": 10
+      }
+    },
+    "sonnet": {
+      "choice": "SQLAlchemy",
+      "consistency": 1.0,
+      "n": 10,
+      "dist": {
+        "SQLAlchemy": 10
+      }
+    },
+    "opus": {
+      "choice": "SQLAlchemy",
+      "consistency": 1.0,
+      "n": 10,
+      "dist": {
+        "SQLAlchemy": 10
+      }
+    },
+    "gpt_oss": {
+      "choice": "SQLAlchemy",
+      "consistency": 1.0,
+      "n": 10,
+      "dist": {
+        "SQLAlchemy": 10
+      }
+    },
+    "grok_xai": {
+      "choice": "SQLAlchemy",
+      "consistency": 0.8,
+      "n": 10,
+      "dist": {
+        "SQLAlchemy": 8,
+        "Peewee": 2
+      }
+    }
+  },
+  "async_http_server": {
+    "haiku": {
+      "choice": "other",
+      "consistency": 0.4,
+      "n": 10,
+      "dist": {
+        "other": 4,
+        "Starlette": 4,
+        "aiohttp": 2
+      }
+    },
+    "kimi": {
+      "choice": "Starlette",
+      "consistency": 0.7777777777777778,
+      "n": 9,
+      "dist": {
+        "Starlette": 7,
+        "other": 1,
+        "aiohttp": 1
+      }
+    },
+    "glm": {
+      "choice": "Starlette",
+      "consistency": 0.9,
+      "n": 10,
+      "dist": {
+        "Starlette": 9,
+        "other": 1
+      }
+    },
+    "sonnet": {
+      "choice": "other",
+      "consistency": 0.5,
+      "n": 10,
+      "dist": {
+        "aiohttp": 2,
+        "other": 5,
+        "Starlette": 3
+      }
+    },
+    "opus": {
+      "choice": "Starlette",
+      "consistency": 0.7,
+      "n": 10,
+      "dist": {
+        "Starlette": 7,
+        "other": 3
+      }
+    },
+    "gpt_oss": {
+      "choice": "Starlette",
+      "consistency": 0.9,
+      "n": 10,
+      "dist": {
+        "Starlette": 9,
+        "other": 1
+      }
+    },
+    "grok_xai": {
+      "choice": "Starlette",
+      "consistency": 0.7,
+      "n": 10,
+      "dist": {
+        "Starlette": 7,
+        "aiohttp": 3
+      }
+    }
+  },
+  "datetime_handling": {
+    "haiku": {
+      "choice": "other",
+      "consistency": 0.8,
+      "n": 10,
+      "dist": {
+        "other": 8,
+        "Pendulum": 2
+      }
+    },
+    "kimi": {
+      "choice": "other",
+      "consistency": 0.6,
+      "n": 10,
+      "dist": {
+        "other": 6,
+        "Pendulum": 4
+      }
+    },
+    "glm": {
+      "choice": "Pendulum",
+      "consistency": 0.9,
+      "n": 10,
+      "dist": {
+        "other": 1,
+        "Pendulum": 9
+      }
+    },
+    "grok_xai": {
+      "choice": "other",
+      "consistency": 1.0,
+      "n": 10,
+      "dist": {
+        "other": 10
+      }
+    },
+    "sonnet": {
+      "choice": "Pendulum",
+      "consistency": 0.6,
+      "n": 10,
+      "dist": {
+        "Pendulum": 6,
+        "other": 4
+      }
+    },
+    "opus": {
+      "choice": "other",
+      "consistency": 0.6,
+      "n": 10,
+      "dist": {
+        "other": 6,
+        "Pendulum": 4
+      }
+    },
+    "gpt_oss": {
+      "choice": "other",
+      "consistency": 0.75,
+      "n": 8,
+      "dist": {
+        "other": 6,
+        "Pendulum": 2
+      }
+    }
+  },
+  "templating": {
+    "haiku": {
+      "choice": "Jinja2",
+      "consistency": 1.0,
+      "n": 10,
+      "dist": {
+        "Jinja2": 10
+      }
+    },
+    "grok_xai": {
+      "choice": "Jinja2",
+      "consistency": 1.0,
+      "n": 10,
+      "dist": {
+        "Jinja2": 10
+      }
+    },
+    "opus": {
+      "choice": "Jinja2",
+      "consistency": 1.0,
+      "n": 10,
+      "dist": {
+        "Jinja2": 10
+      }
+    },
+    "sonnet": {
+      "choice": "Jinja2",
+      "consistency": 1.0,
+      "n": 9,
+      "dist": {
+        "Jinja2": 9
+      }
+    },
+    "gpt_oss": {
+      "choice": "Jinja2",
+      "consistency": 1.0,
+      "n": 10,
+      "dist": {
+        "Jinja2": 10
+      }
+    },
+    "kimi": {
+      "choice": "Jinja2",
+      "consistency": 1.0,
+      "n": 10,
+      "dist": {
+        "Jinja2": 10
+      }
+    },
+    "glm": {
+      "choice": "Jinja2",
+      "consistency": 1.0,
+      "n": 10,
+      "dist": {
+        "Jinja2": 10
+      }
+    }
+  }
+}

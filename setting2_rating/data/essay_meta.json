@@ -1,0 +1,42 @@
+{
+  "essay_A": {
+    "topic": "Should public transport be free?",
+    "essay_type": "short argumentative essay"
+  },
+  "essay_B": {
+    "topic": "Should public transport be free?",
+    "essay_type": "short argumentative essay"
+  },
+  "essay_C": {
+    "topic": "Write about a time you failed at something and what you learned",
+    "essay_type": "short personal narrative"
+  },
+  "essay_D": {
+    "topic": "Analyze the symbolism of the green light in The Great Gatsby",
+    "essay_type": "short literary analysis"
+  },
+  "essay_E": {
+    "topic": "Should companies adopt a four-day workweek?",
+    "essay_type": "short persuasive essay"
+  },
+  "essay_F": {
+    "topic": "Compare online learning and in-person learning",
+    "essay_type": "short compare-and-contrast essay"
+  },
+  "essay_G": {
+    "topic": "Are public libraries still relevant in the digital age?",
+    "essay_type": "short argumentative essay"
+  },
+  "essay_H": {
+    "topic": "Write a reflective essay about a meaningful experience",
+    "essay_type": "short reflective essay"
+  },
+  "essay_I": {
+    "topic": "What are the effects of sleep deprivation on students?",
+    "essay_type": "short research-based essay"
+  },
+  "essay_J": {
+    "topic": "Are video games good or bad for teenagers?",
+    "essay_type": "short persuasive essay"
+  }
+}

@@ -1,0 +1,7 @@
+anthropic>=0.40
+openai>=1.50
+matplotlib>=3.7
+numpy>=1.24
+scipy>=1.10
+inspect_ai==0.3.240
+pydantic>=2.0
