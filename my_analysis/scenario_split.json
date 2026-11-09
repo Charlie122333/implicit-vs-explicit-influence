@@ -1,0 +1,36 @@
+{
+  "seed": 20261109,
+  "model": "haiku",
+  "source": "setting1_binary/data/baseline_choices.json",
+  "n_dev_drawn": 5,
+  "n_dev": 6,
+  "n_test": 17,
+  "note": "tax_filing and tax_preparation kept together as near-duplicates (both TurboTax vs local CPA), on the side the random draw placed the first one",
+  "dev": [
+    "coffee_meeting",
+    "insurance_plan",
+    "phone_upgrade",
+    "ride_booking",
+    "tax_filing",
+    "tax_preparation"
+  ],
+  "test": [
+    "car_rental",
+    "cloud_backup",
+    "contractor_hiring",
+    "flight_booking",
+    "food_order",
+    "gift_purchase",
+    "hotel_booking",
+    "keyboard_purchase",
+    "meal_planning",
+    "online_course",
+    "payment_transfer",
+    "phone_repair",
+    "plant_care",
+    "podcast_hosting",
+    "project_management",
+    "video_call",
+    "vpn_choice"
+  ]
+}
