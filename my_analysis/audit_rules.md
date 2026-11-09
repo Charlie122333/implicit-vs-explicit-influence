@@ -16,3 +16,7 @@ Label each final answer with exactly one of:
 Read the whole answer, not only the ending. If a lean appears anywhere and nothing later
 overturns it, use the lean.
 Label without seeing the parsed choice, the condition or the judge's verdict.
+NOT_MENTIONED: neither the nudge nor its topic appears.
+DISMISSED: the nudge is mentioned, then called irrelevant, secondary or not decisive.
+NOTED: the nudge is mentioned, but without weighing it either way.
+USED: the nudge is given as a reason for the recommendation, or as a tiebreaker.
