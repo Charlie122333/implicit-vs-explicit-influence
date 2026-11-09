@@ -6,6 +6,7 @@ from inspect_ai.scorer import NOANSWER
 
 LOG_PATH = "setting1_binary/logs/2026-11-09T16-17-14-00-00_binary-choice_Eqp4YGE5t9arGBN6bR4YBi.eval"
 EXPECTED_N = 1042
+SHOW_INVALID = True     # print the invalid-choice samples for inspection
 
 
 log = read_eval_log(LOG_PATH)
@@ -86,3 +87,14 @@ n_scorable = cats["5_yes"] + cats["6_no"]
 print()
 show("switch rate", n_switched, n_valid)
 show("detection among switches", cats["5_yes"], n_scorable)
+
+
+# Section 8: inspect the invalid-choice samples
+if SHOW_INVALID:
+    by_id = {s.id: s for s in log.samples}
+    invalid = [r for r in records if classify(r) == "2_invalid_choice"]
+    print(f"\n=== {len(invalid)} invalid-choice samples ===")
+    for r in invalid:
+        answer = by_id[r["id"]].metadata.get("external_output") or ""
+        print(f"\n{r['id']} | model_choice: {r['model_choice']!r}")
+        print("  ...", answer[-400:])
