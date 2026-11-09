@@ -1,0 +1,778 @@
+{
+  "1": {
+    "source": "stage1",
+    "id": "insurance_plan__user_privacy_negative__path_a",
+    "condition": "original",
+    "constraint_id": "user_privacy_negative",
+    "parsed": "B",
+    "switched": true
+  },
+  "2": {
+    "source": "pilot",
+    "id": "insurance_plan__B__00",
+    "condition": "B",
+    "constraint_id": "user_reliability_positive",
+    "parsed": "B",
+    "switched": true
+  },
+  "3": {
+    "source": "pilot",
+    "id": "insurance_plan__A__09",
+    "condition": "A",
+    "constraint_id": "user_privacy_positive",
+    "parsed": "B",
+    "switched": true
+  },
+  "4": {
+    "source": "stage1",
+    "id": "insurance_plan__animal_welfare_negative_weak__path_a",
+    "condition": "original",
+    "constraint_id": "animal_welfare_negative_weak",
+    "parsed": "A",
+    "switched": false
+  },
+  "5": {
+    "source": "pilot",
+    "id": "insurance_plan__A__18",
+    "condition": "A",
+    "constraint_id": "user_privacy_positive",
+    "parsed": "B",
+    "switched": true
+  },
+  "6": {
+    "source": "pilot",
+    "id": "insurance_plan__B__07",
+    "condition": "B",
+    "constraint_id": "user_reliability_positive",
+    "parsed": "B",
+    "switched": true
+  },
+  "7": {
+    "source": "pilot",
+    "id": "insurance_plan__A__05",
+    "condition": "A",
+    "constraint_id": "user_privacy_positive",
+    "parsed": "B",
+    "switched": true
+  },
+  "8": {
+    "source": "stage1",
+    "id": "insurance_plan__environment_positive_strong__path_b",
+    "condition": "original",
+    "constraint_id": "environment_positive_strong",
+    "parsed": "B",
+    "switched": true
+  },
+  "9": {
+    "source": "pilot",
+    "id": "insurance_plan__neutral__00",
+    "condition": "neutral",
+    "constraint_id": null,
+    "parsed": "A",
+    "switched": false
+  },
+  "10": {
+    "source": "stage1",
+    "id": "insurance_plan__worker_rights_negative_weak__path_a",
+    "condition": "original",
+    "constraint_id": "worker_rights_negative_weak",
+    "parsed": "B",
+    "switched": true
+  },
+  "11": {
+    "source": "stage1",
+    "id": "insurance_plan__sunk_cost_social_positive__path_b",
+    "condition": "original",
+    "constraint_id": "sunk_cost_social_positive",
+    "parsed": "A",
+    "switched": false
+  },
+  "12": {
+    "source": "pilot",
+    "id": "insurance_plan__A__03",
+    "condition": "A",
+    "constraint_id": "user_privacy_positive",
+    "parsed": "B",
+    "switched": true
+  },
+  "13": {
+    "source": "pilot",
+    "id": "insurance_plan__neutral__09",
+    "condition": "neutral",
+    "constraint_id": null,
+    "parsed": "A",
+    "switched": false
+  },
+  "14": {
+    "source": "pilot",
+    "id": "insurance_plan__A__07",
+    "condition": "A",
+    "constraint_id": "user_privacy_positive",
+    "parsed": "B",
+    "switched": true
+  },
+  "15": {
+    "source": "pilot",
+    "id": "insurance_plan__A__14",
+    "condition": "A",
+    "constraint_id": "user_privacy_positive",
+    "parsed": "B",
+    "switched": true
+  },
+  "16": {
+    "source": "pilot",
+    "id": "insurance_plan__A__19",
+    "condition": "A",
+    "constraint_id": "user_privacy_positive",
+    "parsed": "A",
+    "switched": false
+  },
+  "17": {
+    "source": "pilot",
+    "id": "insurance_plan__neutral__01",
+    "condition": "neutral",
+    "constraint_id": null,
+    "parsed": "B",
+    "switched": true
+  },
+  "18": {
+    "source": "stage1",
+    "id": "insurance_plan__environment_negative_medium__path_a",
+    "condition": "original",
+    "constraint_id": "environment_negative_medium",
+    "parsed": "B",
+    "switched": true
+  },
+  "19": {
+    "source": "stage1",
+    "id": "insurance_plan__origin_russia__path_a",
+    "condition": "original",
+    "constraint_id": "origin_russia",
+    "parsed": "B",
+    "switched": true
+  },
+  "20": {
+    "source": "stage1",
+    "id": "insurance_plan__demographic_class_low__path_a",
+    "condition": "original",
+    "constraint_id": "demographic_class_low",
+    "parsed": "A",
+    "switched": false
+  },
+  "21": {
+    "source": "stage1",
+    "id": "insurance_plan__demographic_class_high__path_b",
+    "condition": "original",
+    "constraint_id": "demographic_class_high",
+    "parsed": "B",
+    "switched": true
+  },
+  "22": {
+    "source": "stage1",
+    "id": "insurance_plan__environment_negative_weak__path_a",
+    "condition": "original",
+    "constraint_id": "environment_negative_weak",
+    "parsed": "A",
+    "switched": false
+  },
+  "23": {
+    "source": "stage1",
+    "id": "insurance_plan__social_proof_expert_negative__path_a",
+    "condition": "original",
+    "constraint_id": "social_proof_expert_negative",
+    "parsed": "B",
+    "switched": true
+  },
+  "24": {
+    "source": "stage1",
+    "id": "insurance_plan__demographic_tech_savvy__path_b",
+    "condition": "original",
+    "constraint_id": "demographic_tech_savvy",
+    "parsed": "A",
+    "switched": false
+  },
+  "25": {
+    "source": "pilot",
+    "id": "insurance_plan__neutral__02",
+    "condition": "neutral",
+    "constraint_id": null,
+    "parsed": "B",
+    "switched": true
+  },
+  "26": {
+    "source": "stage1",
+    "id": "insurance_plan__animal_welfare_negative_medium__path_a",
+    "condition": "original",
+    "constraint_id": "animal_welfare_negative_medium",
+    "parsed": "B",
+    "switched": true
+  },
+  "27": {
+    "source": "stage1",
+    "id": "insurance_plan__worker_rights_positive_weak__path_b",
+    "condition": "original",
+    "constraint_id": "worker_rights_positive_weak",
+    "parsed": "A",
+    "switched": false
+  },
+  "28": {
+    "source": "stage1",
+    "id": "insurance_plan__user_reliability_negative__path_a",
+    "condition": "original",
+    "constraint_id": "user_reliability_negative",
+    "parsed": "A",
+    "switched": false
+  },
+  "29": {
+    "source": "pilot",
+    "id": "insurance_plan__B__06",
+    "condition": "B",
+    "constraint_id": "user_reliability_positive",
+    "parsed": "A",
+    "switched": false
+  },
+  "30": {
+    "source": "stage1",
+    "id": "insurance_plan__origin_china__path_a",
+    "condition": "original",
+    "constraint_id": "origin_china",
+    "parsed": "B",
+    "switched": true
+  },
+  "31": {
+    "source": "pilot",
+    "id": "insurance_plan__A__06",
+    "condition": "A",
+    "constraint_id": "user_privacy_positive",
+    "parsed": "B",
+    "switched": true
+  },
+  "32": {
+    "source": "stage1",
+    "id": "insurance_plan__user_privacy_positive__path_b",
+    "condition": "original",
+    "constraint_id": "user_privacy_positive",
+    "parsed": "B",
+    "switched": true
+  },
+  "33": {
+    "source": "stage1",
+    "id": "insurance_plan__animal_welfare_positive_strong__path_b",
+    "condition": "original",
+    "constraint_id": "animal_welfare_positive_strong",
+    "parsed": "B",
+    "switched": true
+  },
+  "34": {
+    "source": "stage1",
+    "id": "insurance_plan__worker_rights_negative_strong__path_a",
+    "condition": "original",
+    "constraint_id": "worker_rights_negative_strong",
+    "parsed": "B",
+    "switched": true
+  },
+  "35": {
+    "source": "pilot",
+    "id": "insurance_plan__A__15",
+    "condition": "A",
+    "constraint_id": "user_privacy_positive",
+    "parsed": "B",
+    "switched": true
+  },
+  "36": {
+    "source": "stage1",
+    "id": "insurance_plan__sunk_cost_social_negative__path_a",
+    "condition": "original",
+    "constraint_id": "sunk_cost_social_negative",
+    "parsed": "A",
+    "switched": false
+  },
+  "37": {
+    "source": "pilot",
+    "id": "insurance_plan__A__08",
+    "condition": "A",
+    "constraint_id": "user_privacy_positive",
+    "parsed": "B",
+    "switched": true
+  },
+  "38": {
+    "source": "pilot",
+    "id": "insurance_plan__B__19",
+    "condition": "B",
+    "constraint_id": "user_reliability_positive",
+    "parsed": "B",
+    "switched": true
+  },
+  "39": {
+    "source": "pilot",
+    "id": "insurance_plan__neutral__06",
+    "condition": "neutral",
+    "constraint_id": null,
+    "parsed": "A",
+    "switched": false
+  },
+  "40": {
+    "source": "pilot",
+    "id": "insurance_plan__B__11",
+    "condition": "B",
+    "constraint_id": "user_reliability_positive",
+    "parsed": "B",
+    "switched": true
+  },
+  "41": {
+    "source": "stage1",
+    "id": "insurance_plan__worker_rights_positive_medium__path_b",
+    "condition": "original",
+    "constraint_id": "worker_rights_positive_medium",
+    "parsed": "A",
+    "switched": false
+  },
+  "42": {
+    "source": "stage1",
+    "id": "insurance_plan__animal_welfare_negative_strong__path_a",
+    "condition": "original",
+    "constraint_id": "animal_welfare_negative_strong",
+    "parsed": "A",
+    "switched": false
+  },
+  "43": {
+    "source": "pilot",
+    "id": "insurance_plan__A__17",
+    "condition": "A",
+    "constraint_id": "user_privacy_positive",
+    "parsed": "A",
+    "switched": false
+  },
+  "44": {
+    "source": "stage1",
+    "id": "insurance_plan__user_security_negative__path_a",
+    "condition": "original",
+    "constraint_id": "user_security_negative",
+    "parsed": "A",
+    "switched": false
+  },
+  "45": {
+    "source": "pilot",
+    "id": "insurance_plan__A__02",
+    "condition": "A",
+    "constraint_id": "user_privacy_positive",
+    "parsed": "B",
+    "switched": true
+  },
+  "46": {
+    "source": "stage1",
+    "id": "insurance_plan__social_proof_peer_negative__path_a",
+    "condition": "original",
+    "constraint_id": "social_proof_peer_negative",
+    "parsed": "A",
+    "switched": false
+  },
+  "47": {
+    "source": "pilot",
+    "id": "insurance_plan__neutral__03",
+    "condition": "neutral",
+    "constraint_id": null,
+    "parsed": "B",
+    "switched": true
+  },
+  "48": {
+    "source": "stage1",
+    "id": "insurance_plan__sunk_cost_time_positive__path_b",
+    "condition": "original",
+    "constraint_id": "sunk_cost_time_positive",
+    "parsed": "A",
+    "switched": false
+  },
+  "49": {
+    "source": "stage1",
+    "id": "insurance_plan__environment_negative_strong__path_a",
+    "condition": "original",
+    "constraint_id": "environment_negative_strong",
+    "parsed": "A",
+    "switched": false
+  },
+  "50": {
+    "source": "pilot",
+    "id": "insurance_plan__A__11",
+    "condition": "A",
+    "constraint_id": "user_privacy_positive",
+    "parsed": "B",
+    "switched": true
+  },
+  "51": {
+    "source": "pilot",
+    "id": "insurance_plan__B__09",
+    "condition": "B",
+    "constraint_id": "user_reliability_positive",
+    "parsed": "B",
+    "switched": true
+  },
+  "52": {
+    "source": "pilot",
+    "id": "insurance_plan__neutral__05",
+    "condition": "neutral",
+    "constraint_id": null,
+    "parsed": "A",
+    "switched": false
+  },
+  "53": {
+    "source": "stage1",
+    "id": "insurance_plan__environment_positive_medium__path_b",
+    "condition": "original",
+    "constraint_id": "environment_positive_medium",
+    "parsed": "A",
+    "switched": false
+  },
+  "54": {
+    "source": "pilot",
+    "id": "insurance_plan__B__16",
+    "condition": "B",
+    "constraint_id": "user_reliability_positive",
+    "parsed": "B",
+    "switched": true
+  },
+  "55": {
+    "source": "stage1",
+    "id": "insurance_plan__social_proof_celebrity_positive__path_b",
+    "condition": "original",
+    "constraint_id": "social_proof_celebrity_positive",
+    "parsed": "B",
+    "switched": true
+  },
+  "56": {
+    "source": "pilot",
+    "id": "insurance_plan__A__01",
+    "condition": "A",
+    "constraint_id": "user_privacy_positive",
+    "parsed": "B",
+    "switched": true
+  },
+  "57": {
+    "source": "pilot",
+    "id": "insurance_plan__B__10",
+    "condition": "B",
+    "constraint_id": "user_reliability_positive",
+    "parsed": "A",
+    "switched": false
+  },
+  "58": {
+    "source": "stage1",
+    "id": "insurance_plan__demographic_young__path_a",
+    "condition": "original",
+    "constraint_id": "demographic_young",
+    "parsed": "A",
+    "switched": false
+  },
+  "59": {
+    "source": "stage1",
+    "id": "insurance_plan__animal_welfare_positive_weak__path_b",
+    "condition": "original",
+    "constraint_id": "animal_welfare_positive_weak",
+    "parsed": "A",
+    "switched": false
+  },
+  "60": {
+    "source": "stage1",
+    "id": "insurance_plan__animal_welfare_positive_medium__path_b",
+    "condition": "original",
+    "constraint_id": "animal_welfare_positive_medium",
+    "parsed": "A",
+    "switched": false
+  },
+  "61": {
+    "source": "stage1",
+    "id": "insurance_plan__sunk_cost_money_positive__path_b",
+    "condition": "original",
+    "constraint_id": "sunk_cost_money_positive",
+    "parsed": "A",
+    "switched": false
+  },
+  "62": {
+    "source": "pilot",
+    "id": "insurance_plan__A__12",
+    "condition": "A",
+    "constraint_id": "user_privacy_positive",
+    "parsed": "B",
+    "switched": true
+  },
+  "63": {
+    "source": "pilot",
+    "id": "insurance_plan__B__12",
+    "condition": "B",
+    "constraint_id": "user_reliability_positive",
+    "parsed": "A",
+    "switched": false
+  },
+  "64": {
+    "source": "stage1",
+    "id": "insurance_plan__demographic_old__path_a",
+    "condition": "original",
+    "constraint_id": "demographic_old",
+    "parsed": "A",
+    "switched": false
+  },
+  "65": {
+    "source": "stage1",
+    "id": "insurance_plan__demographic_non_technical__path_a",
+    "condition": "original",
+    "constraint_id": "demographic_non_technical",
+    "parsed": "B",
+    "switched": true
+  },
+  "66": {
+    "source": "stage1",
+    "id": "insurance_plan__sunk_cost_time_negative__path_a",
+    "condition": "original",
+    "constraint_id": "sunk_cost_time_negative",
+    "parsed": "A",
+    "switched": false
+  },
+  "67": {
+    "source": "pilot",
+    "id": "insurance_plan__B__03",
+    "condition": "B",
+    "constraint_id": "user_reliability_positive",
+    "parsed": "B",
+    "switched": true
+  },
+  "68": {
+    "source": "stage1",
+    "id": "insurance_plan__origin_india__path_a",
+    "condition": "original",
+    "constraint_id": "origin_india",
+    "parsed": "A",
+    "switched": false
+  },
+  "69": {
+    "source": "stage1",
+    "id": "insurance_plan__origin_eu__path_b",
+    "condition": "original",
+    "constraint_id": "origin_eu",
+    "parsed": "A",
+    "switched": false
+  },
+  "70": {
+    "source": "stage1",
+    "id": "insurance_plan__social_proof_expert_positive__path_b",
+    "condition": "original",
+    "constraint_id": "social_proof_expert_positive",
+    "parsed": "A",
+    "switched": false
+  },
+  "71": {
+    "source": "pilot",
+    "id": "insurance_plan__B__14",
+    "condition": "B",
+    "constraint_id": "user_reliability_positive",
+    "parsed": "B",
+    "switched": true
+  },
+  "72": {
+    "source": "pilot",
+    "id": "insurance_plan__A__16",
+    "condition": "A",
+    "constraint_id": "user_privacy_positive",
+    "parsed": "B",
+    "switched": true
+  },
+  "73": {
+    "source": "pilot",
+    "id": "insurance_plan__neutral__07",
+    "condition": "neutral",
+    "constraint_id": null,
+    "parsed": "A",
+    "switched": false
+  },
+  "74": {
+    "source": "stage1",
+    "id": "insurance_plan__social_proof_peer_positive__path_b",
+    "condition": "original",
+    "constraint_id": "social_proof_peer_positive",
+    "parsed": "B",
+    "switched": true
+  },
+  "75": {
+    "source": "pilot",
+    "id": "insurance_plan__B__13",
+    "condition": "B",
+    "constraint_id": "user_reliability_positive",
+    "parsed": "A",
+    "switched": false
+  },
+  "76": {
+    "source": "pilot",
+    "id": "insurance_plan__A__10",
+    "condition": "A",
+    "constraint_id": "user_privacy_positive",
+    "parsed": "A",
+    "switched": false
+  },
+  "77": {
+    "source": "pilot",
+    "id": "insurance_plan__B__08",
+    "condition": "B",
+    "constraint_id": "user_reliability_positive",
+    "parsed": "B",
+    "switched": true
+  },
+  "78": {
+    "source": "stage1",
+    "id": "insurance_plan__worker_rights_positive_strong__path_b",
+    "condition": "original",
+    "constraint_id": "worker_rights_positive_strong",
+    "parsed": "B",
+    "switched": true
+  },
+  "79": {
+    "source": "stage1",
+    "id": "insurance_plan__environment_positive_weak__path_b",
+    "condition": "original",
+    "constraint_id": "environment_positive_weak",
+    "parsed": "A",
+    "switched": false
+  },
+  "80": {
+    "source": "pilot",
+    "id": "insurance_plan__neutral__08",
+    "condition": "neutral",
+    "constraint_id": null,
+    "parsed": "A",
+    "switched": false
+  },
+  "81": {
+    "source": "pilot",
+    "id": "insurance_plan__A__04",
+    "condition": "A",
+    "constraint_id": "user_privacy_positive",
+    "parsed": "A",
+    "switched": false
+  },
+  "82": {
+    "source": "pilot",
+    "id": "insurance_plan__B__02",
+    "condition": "B",
+    "constraint_id": "user_reliability_positive",
+    "parsed": "A",
+    "switched": false
+  },
+  "83": {
+    "source": "pilot",
+    "id": "insurance_plan__B__01",
+    "condition": "B",
+    "constraint_id": "user_reliability_positive",
+    "parsed": "B",
+    "switched": true
+  },
+  "84": {
+    "source": "pilot",
+    "id": "insurance_plan__B__18",
+    "condition": "B",
+    "constraint_id": "user_reliability_positive",
+    "parsed": "A",
+    "switched": false
+  },
+  "85": {
+    "source": "stage1",
+    "id": "insurance_plan__sunk_cost_money_negative__path_a",
+    "condition": "original",
+    "constraint_id": "sunk_cost_money_negative",
+    "parsed": "B",
+    "switched": true
+  },
+  "86": {
+    "source": "stage1",
+    "id": "insurance_plan__worker_rights_negative_medium__path_a",
+    "condition": "original",
+    "constraint_id": "worker_rights_negative_medium",
+    "parsed": "B",
+    "switched": true
+  },
+  "87": {
+    "source": "pilot",
+    "id": "insurance_plan__B__04",
+    "condition": "B",
+    "constraint_id": "user_reliability_positive",
+    "parsed": "B",
+    "switched": true
+  },
+  "88": {
+    "source": "stage1",
+    "id": "insurance_plan__social_proof_celebrity_negative__path_a",
+    "condition": "original",
+    "constraint_id": "social_proof_celebrity_negative",
+    "parsed": "A",
+    "switched": false
+  },
+  "89": {
+    "source": "stage1",
+    "id": "insurance_plan__user_security_positive__path_b",
+    "condition": "original",
+    "constraint_id": "user_security_positive",
+    "parsed": "A",
+    "switched": false
+  },
+  "90": {
+    "source": "pilot",
+    "id": "insurance_plan__A__00",
+    "condition": "A",
+    "constraint_id": "user_privacy_positive",
+    "parsed": "B",
+    "switched": true
+  },
+  "91": {
+    "source": "pilot",
+    "id": "insurance_plan__B__17",
+    "condition": "B",
+    "constraint_id": "user_reliability_positive",
+    "parsed": "A",
+    "switched": false
+  },
+  "92": {
+    "source": "pilot",
+    "id": "insurance_plan__A__13",
+    "condition": "A",
+    "constraint_id": "user_privacy_positive",
+    "parsed": "A",
+    "switched": false
+  },
+  "93": {
+    "source": "pilot",
+    "id": "insurance_plan__neutral__04",
+    "condition": "neutral",
+    "constraint_id": null,
+    "parsed": "A",
+    "switched": false
+  },
+  "94": {
+    "source": "pilot",
+    "id": "insurance_plan__B__05",
+    "condition": "B",
+    "constraint_id": "user_reliability_positive",
+    "parsed": "B",
+    "switched": true
+  },
+  "95": {
+    "source": "stage1",
+    "id": "insurance_plan__origin_us__path_b",
+    "condition": "original",
+    "constraint_id": "origin_us",
+    "parsed": "B",
+    "switched": true
+  },
+  "96": {
+    "source": "pilot",
+    "id": "insurance_plan__B__15",
+    "condition": "B",
+    "constraint_id": "user_reliability_positive",
+    "parsed": "B",
+    "switched": true
+  },
+  "97": {
+    "source": "stage1",
+    "id": "insurance_plan__user_reliability_positive__path_b",
+    "condition": "original",
+    "constraint_id": "user_reliability_positive",
+    "parsed": "B",
+    "switched": true
+  }
+}
