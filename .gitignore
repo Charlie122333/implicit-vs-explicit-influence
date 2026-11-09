@@ -17,3 +17,4 @@ venv/
 .vscode/
 .idea/
 setting1_binary/logs/
+my_analysis/logs/
