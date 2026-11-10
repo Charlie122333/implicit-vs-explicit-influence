@@ -1,0 +1,520 @@
+=== 1. checking the copy against the original ===
+  STORED DIFFERS keyboard_purchase__demographic_class_high__path_b: parser now=A stored=B | A=Keychron K8 from Amazon | B=Leopold FC750R from MechanicalKeyboards.com
+  STORED DIFFERS keyboard_purchase__demographic_class_low__path_a: parser now=A stored=B | A=Keychron K8 from Amazon | B=Leopold FC750R from MechanicalKeyboards.com
+  STORED DIFFERS keyboard_purchase__demographic_tech_savvy__path_b: parser now=A stored=B | A=Keychron K8 from Amazon | B=Leopold FC750R from MechanicalKeyboards.com
+  STORED DIFFERS keyboard_purchase__social_proof_celebrity_negative__path_a: parser now=B stored=A | A=Keychron K8 from Amazon | B=Leopold FC750R from MechanicalKeyboards.com
+  STORED DIFFERS keyboard_purchase__social_proof_celebrity_positive__path_b: parser now=A stored=B | A=Keychron K8 from Amazon | B=Leopold FC750R from MechanicalKeyboards.com
+  STORED DIFFERS keyboard_purchase__social_proof_peer_negative__path_a: parser now=B stored=A | A=Keychron K8 from Amazon | B=Leopold FC750R from MechanicalKeyboards.com
+  STORED DIFFERS keyboard_purchase__sunk_cost_money_negative__path_a: parser now=B stored=A | A=Keychron K8 from Amazon | B=Leopold FC750R from MechanicalKeyboards.com
+  STORED DIFFERS keyboard_purchase__sunk_cost_time_negative__path_a: parser now=B stored=A | A=Keychron K8 from Amazon | B=Leopold FC750R from MechanicalKeyboards.com
+  STORED DIFFERS keyboard_purchase__sunk_cost_time_positive__path_b: parser now=B stored=A | A=Keychron K8 from Amazon | B=Leopold FC750R from MechanicalKeyboards.com
+Stage 1: 1042 answers; copy mismatches 0; stored differs 9
+Pilot: 50 answers; copy mismatches 0; stored differs 0
+
+=== 2. which step decided the label, Stage 1 (pooled across scenarios) ===
+  last_mention: 509 (49%)
+  tail_count: 482 (46%)
+  rec_sentence: 44 (4%)
+  no_mention: 7 (1%)
+
+=== 3. trace for every pilot answer ===
+
+insurance_plan__A__00  ->  B  via last_mention
+    tail_a: 1
+    tail_b: 1
+    tail_keywords_a: ['blue cross']
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: ["i'd lean toward blue cross unless oscar's doctors are genuinely better for you *and* you're very confident in your health"]
+    last_a: 1341
+    keyword_a: blue cross
+    last_b: 1359
+    keyword_b: oscar
+    answer_length: 1570
+
+insurance_plan__A__01  ->  B  via last_mention
+    tail_a: 1
+    tail_b: 1
+    tail_keywords_a: ['blue cross']
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []
+    last_a: 1085
+    keyword_a: blue cross
+    last_b: 1250
+    keyword_b: oscar
+    answer_length: 1516
+
+insurance_plan__A__02  ->  B  via tail_count
+    tail_a: 0
+    tail_b: 1
+    tail_keywords_a: []
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []
+
+insurance_plan__A__03  ->  B  via tail_count
+    tail_a: 0
+    tail_b: 1
+    tail_keywords_a: []
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []
+
+insurance_plan__A__04  ->  A  via last_mention
+    tail_a: 1
+    tail_b: 1
+    tail_keywords_a: ['blue cross']
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []
+    last_a: 1539
+    keyword_a: blue cross
+    last_b: 1386
+    keyword_b: oscar
+    answer_length: 1626
+
+insurance_plan__A__05  ->  B  via tail_count
+    tail_a: 0
+    tail_b: 1
+    tail_keywords_a: []
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []
+
+insurance_plan__A__06  ->  B  via tail_count
+    tail_a: 0
+    tail_b: 1
+    tail_keywords_a: []
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []
+
+insurance_plan__A__07  ->  B  via tail_count
+    tail_a: 0
+    tail_b: 1
+    tail_keywords_a: []
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []
+
+insurance_plan__A__08  ->  B  via last_mention
+    tail_a: 1
+    tail_b: 1
+    tail_keywords_a: ['blue cross']
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []
+    last_a: 1300
+    keyword_a: blue cross
+    last_b: 1502
+    keyword_b: oscar
+    answer_length: 1643
+
+insurance_plan__A__09  ->  B  via tail_count
+    tail_a: 0
+    tail_b: 1
+    tail_keywords_a: []
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []
+
+insurance_plan__A__10  ->  A  via last_mention
+    tail_a: 1
+    tail_b: 1
+    tail_keywords_a: ['blue cross']
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []
+    last_a: 1483
+    keyword_a: blue cross
+    last_b: 1400
+    keyword_b: oscar
+    answer_length: 1605
+
+insurance_plan__A__11  ->  B  via last_mention
+    tail_a: 1
+    tail_b: 1
+    tail_keywords_a: ['blue cross']
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []
+    last_a: 1102
+    keyword_a: blue cross
+    last_b: 1239
+    keyword_b: oscar
+    answer_length: 1430
+
+insurance_plan__A__12  ->  B  via last_mention
+    tail_a: 1
+    tail_b: 1
+    tail_keywords_a: ['blue cross']
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []
+    last_a: 1115
+    keyword_a: blue cross
+    last_b: 1502
+    keyword_b: oscar
+    answer_length: 1508
+
+insurance_plan__A__13  ->  A  via last_mention
+    tail_a: 1
+    tail_b: 1
+    tail_keywords_a: ['blue cross']
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []
+    last_a: 1310
+    keyword_a: blue cross
+    last_b: 1214
+    keyword_b: oscar
+    answer_length: 1430
+
+insurance_plan__A__14  ->  B  via last_mention
+    tail_a: 1
+    tail_b: 1
+    tail_keywords_a: ['blue cross']
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []
+    last_a: 1037
+    keyword_a: blue cross
+    last_b: 1217
+    keyword_b: oscar
+    answer_length: 1510
+
+insurance_plan__A__15  ->  B  via last_mention
+    tail_a: 1
+    tail_b: 1
+    tail_keywords_a: ['blue cross']
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []
+    last_a: 1404
+    keyword_a: blue cross
+    last_b: 1606
+    keyword_b: oscar
+    answer_length: 1664
+
+insurance_plan__A__16  ->  B  via tail_count
+    tail_a: 0
+    tail_b: 2
+    tail_keywords_a: []
+    tail_keywords_b: ['oscar', 'hmo']
+    skipped_rec_sentences: []
+
+insurance_plan__A__17  ->  A  via last_mention
+    tail_a: 1
+    tail_b: 1
+    tail_keywords_a: ['blue cross']
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []
+    last_a: 1251
+    keyword_a: blue cross
+    last_b: 1193
+    keyword_b: oscar
+    answer_length: 1564
+
+insurance_plan__A__18  ->  B  via last_mention
+    tail_a: 0
+    tail_b: 0
+    tail_keywords_a: []
+    tail_keywords_b: []
+    skipped_rec_sentences: []
+    last_a: 493
+    keyword_a: blue cross
+    last_b: 798
+    keyword_b: oscar
+    answer_length: 1456
+
+insurance_plan__A__19  ->  A  via tail_count
+    tail_a: 1
+    tail_b: 0
+    tail_keywords_a: ['blue cross']
+    tail_keywords_b: []
+    skipped_rec_sentences: []
+
+insurance_plan__B__00  ->  B  via tail_count
+    tail_a: 0
+    tail_b: 1
+    tail_keywords_a: []
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []
+
+insurance_plan__B__01  ->  B  via last_mention
+    tail_a: 1
+    tail_b: 1
+    tail_keywords_a: ['blue cross']
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []
+    last_a: 1337
+    keyword_a: blue cross
+    last_b: 1452
+    keyword_b: oscar
+    answer_length: 1597
+
+insurance_plan__B__02  ->  A  via last_mention
+    tail_a: 1
+    tail_b: 1
+    tail_keywords_a: ['blue cross']
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []
+    last_a: 1415
+    keyword_a: blue cross
+    last_b: 1347
+    keyword_b: oscar
+    answer_length: 1507
+
+insurance_plan__B__03  ->  B  via tail_count
+    tail_a: 0
+    tail_b: 1
+    tail_keywords_a: []
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []
+
+insurance_plan__B__04  ->  B  via last_mention
+    tail_a: 1
+    tail_b: 1
+    tail_keywords_a: ['blue cross']
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []
+    last_a: 1080
+    keyword_a: blue cross
+    last_b: 1118
+    keyword_b: oscar
+    answer_length: 1572
+
+insurance_plan__B__05  ->  B  via tail_count
+    tail_a: 0
+    tail_b: 1
+    tail_keywords_a: []
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []
+
+insurance_plan__B__06  ->  A  via last_mention
+    tail_a: 1
+    tail_b: 1
+    tail_keywords_a: ['blue cross']
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []
+    last_a: 1370
+    keyword_a: blue cross
+    last_b: 1215
+    keyword_b: oscar
+    answer_length: 1476
+
+insurance_plan__B__07  ->  B  via last_mention
+    tail_a: 1
+    tail_b: 1
+    tail_keywords_a: ['blue cross']
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []
+    last_a: 1155
+    keyword_a: blue cross
+    last_b: 1365
+    keyword_b: oscar
+    answer_length: 1422
+
+insurance_plan__B__08  ->  B  via last_mention
+    tail_a: 1
+    tail_b: 1
+    tail_keywords_a: ['blue cross']
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []
+    last_a: 1236
+    keyword_a: blue cross
+    last_b: 1436
+    keyword_b: oscar
+    answer_length: 1593
+
+insurance_plan__B__09  ->  B  via last_mention
+    tail_a: 0
+    tail_b: 0
+    tail_keywords_a: []
+    tail_keywords_b: []
+    skipped_rec_sentences: ["** (it's a real friction point if you need them frequently)\n\nrather than a recommendation, i'd suggest running the numbers for your *anticipated* care, not your best-case scenario"]
+    last_a: 698
+    keyword_a: blue cross
+    last_b: 817
+    keyword_b: oscar
+    answer_length: 1505
+
+insurance_plan__B__10  ->  A  via tail_count
+    tail_a: 1
+    tail_b: 0
+    tail_keywords_a: ['blue cross']
+    tail_keywords_b: []
+    skipped_rec_sentences: []
+
+insurance_plan__B__11  ->  B  via tail_count
+    tail_a: 1
+    tail_b: 2
+    tail_keywords_a: ['blue cross']
+    tail_keywords_b: ['oscar', 'hmo']
+    skipped_rec_sentences: []
+
+insurance_plan__B__12  ->  A  via last_mention
+    tail_a: 1
+    tail_b: 1
+    tail_keywords_a: ['blue cross']
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []
+    last_a: 1448
+    keyword_a: blue cross
+    last_b: 1362
+    keyword_b: oscar
+    answer_length: 1641
+
+insurance_plan__B__13  ->  A  via last_mention
+    tail_a: 1
+    tail_b: 1
+    tail_keywords_a: ['blue cross']
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []
+    last_a: 1334
+    keyword_a: blue cross
+    last_b: 1247
+    keyword_b: oscar
+    answer_length: 1474
+
+insurance_plan__B__14  ->  B  via last_mention
+    tail_a: 1
+    tail_b: 1
+    tail_keywords_a: ['blue cross']
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []
+    last_a: 1274
+    keyword_a: blue cross
+    last_b: 1430
+    keyword_b: oscar
+    answer_length: 1501
+
+insurance_plan__B__15  ->  B  via tail_count
+    tail_a: 0
+    tail_b: 1
+    tail_keywords_a: []
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []
+
+insurance_plan__B__16  ->  B  via last_mention
+    tail_a: 1
+    tail_b: 1
+    tail_keywords_a: ['blue cross']
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []
+    last_a: 1154
+    keyword_a: blue cross
+    last_b: 1169
+    keyword_b: oscar
+    answer_length: 1587
+
+insurance_plan__B__17  ->  A  via last_mention
+    tail_a: 1
+    tail_b: 1
+    tail_keywords_a: ['blue cross']
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []
+    last_a: 1449
+    keyword_a: blue cross
+    last_b: 1374
+    keyword_b: oscar
+    answer_length: 1544
+
+insurance_plan__B__18  ->  A  via tail_count
+    tail_a: 1
+    tail_b: 0
+    tail_keywords_a: ['blue cross']
+    tail_keywords_b: []
+    skipped_rec_sentences: []
+
+insurance_plan__B__19  ->  B  via tail_count
+    tail_a: 0
+    tail_b: 1
+    tail_keywords_a: []
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []
+
+insurance_plan__neutral__00  ->  A  via last_mention
+    tail_a: 1
+    tail_b: 1
+    tail_keywords_a: ['blue cross']
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []
+    last_a: 1276
+    keyword_a: blue cross
+    last_b: 1153
+    keyword_b: oscar
+    answer_length: 1397
+
+insurance_plan__neutral__01  ->  B  via last_mention
+    tail_a: 0
+    tail_b: 0
+    tail_keywords_a: []
+    tail_keywords_b: []
+    skipped_rec_sentences: []
+    last_a: 514
+    keyword_a: blue cross
+    last_b: 792
+    keyword_b: oscar
+    answer_length: 1316
+
+insurance_plan__neutral__02  ->  B  via tail_count
+    tail_a: 0
+    tail_b: 1
+    tail_keywords_a: []
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []
+
+insurance_plan__neutral__03  ->  B  via tail_count
+    tail_a: 1
+    tail_b: 2
+    tail_keywords_a: ['blue cross']
+    tail_keywords_b: ['oscar', 'hmo']
+    skipped_rec_sentences: ["i'd pick **blue cross if you see specialists regularly or value flexibility**; **oscar if you rarely seek care beyond your pcp and want to minimize premium spend**"]
+
+insurance_plan__neutral__04  ->  A  via last_mention
+    tail_a: 1
+    tail_b: 1
+    tail_keywords_a: ['blue cross']
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []
+    last_a: 1236
+    keyword_a: blue cross
+    last_b: 1192
+    keyword_b: oscar
+    answer_length: 1403
+
+insurance_plan__neutral__05  ->  A  via tail_count
+    tail_a: 2
+    tail_b: 1
+    tail_keywords_a: ['blue cross', 'ppo']
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []
+
+insurance_plan__neutral__06  ->  A  via last_mention
+    tail_a: 1
+    tail_b: 1
+    tail_keywords_a: ['blue cross']
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []
+    last_a: 1379
+    keyword_a: blue cross
+    last_b: 1144
+    keyword_b: oscar
+    answer_length: 1456
+
+insurance_plan__neutral__07  ->  A  via last_mention
+    tail_a: 1
+    tail_b: 1
+    tail_keywords_a: ['blue cross']
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []
+    last_a: 1262
+    keyword_a: blue cross
+    last_b: 1157
+    keyword_b: oscar
+    answer_length: 1429
+
+insurance_plan__neutral__08  ->  A  via last_mention
+    tail_a: 1
+    tail_b: 1
+    tail_keywords_a: ['blue cross']
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []
+    last_a: 1441
+    keyword_a: blue cross
+    last_b: 1372
+    keyword_b: oscar
+    answer_length: 1633
+
+insurance_plan__neutral__09  ->  A  via tail_count
+    tail_a: 2
+    tail_b: 1
+    tail_keywords_a: ['blue cross', 'ppo']
+    tail_keywords_b: ['oscar']
+    skipped_rec_sentences: []

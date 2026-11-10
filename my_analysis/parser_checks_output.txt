@@ -1,0 +1,236 @@
+=== A. keyword matches in the tail, flagged pilot answers ===
+
+insurance_plan__neutral__05
+   [A] 'blue cross' (whole word): ... flexibility or might need specialists, blue cross's higher premium buys meaningful freedo...
+   [A] 'ppo' (INSIDE ANOTHER WORD): ...lly healthy" detail cuts both ways—it supports oscar's lower premium, but also mean...
+   [B] 'oscar' (whole word): ...e truly low-risk and the network works, oscar's premium savings are real - if you lik...
+   [B] 'oscar' (whole word): ...lthy" detail cuts both ways—it supports oscar's lower premium, but also means you mig...
+
+insurance_plan__neutral__09
+   [A] 'blue cross' (whole word): ... unexpected surgery or hospitalization. blue cross caps it at $4,000.  **my take:** for so...
+   [A] 'ppo' (whole word): ... - you value not needing referrals  the ppo's flexibility costs more but has lower ...
+   [B] 'oscar' (whole word): ...0 suddenly?** oscar's higher out-of-pocket max matters if y...
+   [B] 'oscar' (whole word): ...ake:** for someone "generally healthy," oscar looks appealing on paper (saves ~$1,300...
+
+insurance_plan__A__16
+   [B] 'oscar' (whole word): ...althy" is a reasonable position for the oscar bet, but it's still a bet - the $1,320 ...
+   [B] 'hmo' (INSIDE ANOTHER WORD): ...es not—depends on your usage patterns - hmos *can* be restrictive if your doctor is...
+
+insurance_plan__B__11
+   [A] 'blue cross' (whole word): ...6,000 out-of-pocket hit would hurt, the blue cross ceiling matters more.  4. **do you anti...
+   [B] 'oscar' (whole word): ...heck: are the specialists you'd need in oscar's network?  **on the reliability commen...
+   [B] 'hmo' (whole word): ...ims reasonably. the bigger risk with an hmo is network limitations, not claim denia...
+
+insurance_plan__neutral__03
+   [A] 'blue cross' (whole word): ...major procedures, blue cross's lower max is more valuable  **my hone...
+   [A] 'blue cross' (whole word): ...ferrals, smaller network).   i'd pick **blue cross if you see specialists regularly or val...
+   [B] 'oscar' (whole word): ...ith no specialists in regular rotation, oscar's premium savings are real. but there's...
+   [B] 'oscar' (whole word): ...sts regularly or value flexibility**; **oscar if you rarely seek care beyond your pcp...
+   [B] 'hmo' (whole word): ...real. but there's a comfort-cost to the hmo model (referrals, smaller network).   i...
+
+=== B. Stage 1 (pooled): tail keywords present ONLY inside other words ===
+answers where a tail keyword counts only through another word: 81 of 1042
+   'nord': 41
+   'real plant': 15
+   'fake plant': 9
+   'meal kit': 4
+   'ssd': 3
+   'iphone': 3
+   'external drive': 2
+   'cpa': 2
+   'external ssd': 1
+   'deli': 1
+   'local shop': 1
+   'marriott': 1
+   'hmo': 1
+   'official': 1
+   'repair shop': 1
+
+=== C. pilot tails that name only option B (classify by hand) ===
+
+--- insurance_plan__A__02 (condition A, parsed B) ---
+xpected happens?
+
+**On the privacy angle**: It's genuinely a positive differentiator, but I'd weight it lower than coverage and costs. Good privacy practices matter, but don't let them override whether the plan actually works for your medical situation.
+
+**My honest take**: For a healthy person with no strong specialist dependencies, Oscar's $1,300/year savings is compelling—*if* your doctors are in-network. That's worth verifying first.
+
+What does your network check show for your key providers?
+
+--- insurance_plan__A__03 (condition A, parsed B) ---
+strating.
+
+**On the privacy point:** While Oscar's practices are genuinely better, I'd weight this lower than coverage fit. Good data practices matter, but not if the plan doesn't cover your needs well.
+
+**My practical suggestion:** Before deciding, verify your top 3-5 doctors are in-network for both plans. That single check often clarifies the choice. If they're in both, Oscar's numbers favor it for healthy people with stable, predictable care patterns.
+
+What does your provider list check show?
+
+--- insurance_plan__A__05 (condition A, parsed B) ---
+t just that they're in-network on paper)
+2. Look up actual copays/coinsurance, not just deductibles—these can differ significantly
+3. Compare whether you'd realistically hit deductibles given your actual usage
+
+The math isn't obvious here. Oscar saves $1,320 annually but exposes you to $2,000 more in worst-case costs. For a generally healthy person, that's probably fine—but only if your doctors are actually in that network.
+
+What's your current doctor situation? That's often the deciding factor.
+
+--- insurance_plan__A__06 (condition A, parsed B) ---
+it bother you if you had a health issue?
+
+4. **What's your actual network experience likely to be?** Oscar's "good local doctors" claim is marketing—call their member line and verify if *your* doctors are there.
+
+**My honest take:** For a generally healthy person, Oscar's $110/month savings is real money. But it only makes sense if their network works for you *and* you're okay with the referral friction. Don't assume that friction won't matter until you need it.
+
+What doctors matter most to you?
+
+--- insurance_plan__A__07 (condition A, parsed B) ---
+ health insurance choice should primarily be driven by coverage, cost, and access—not privacy practices. That's a nice differentiator but shouldn't override the structural plan differences.
+
+**For a generally healthy person**, Oscar is often the rational choice. The premium savings are real. But this only works if you're comfortable with the higher deductible and can handle the referral friction.
+
+What does your typical healthcare usage actually look like? That's the key detail that shifts this.
+
+--- insurance_plan__A__09 (condition A, parsed B) ---
+ue Cross costs more upfront but has lower risk. Oscar saves money if you stay healthy but creates higher financial exposure. The break-even point depends on your actual health trajectory, not your current health status.
+
+**What I'd actually ask yourself:**
+- Can you comfortably absorb a $6,000 hit if something unexpected happens?
+- Do you have preferred doctors outside a "good local" network?
+- How much does the referral hassle actually bother you?
+
+Which of these resonates as your main concern?
+
+--- insurance_plan__A__16 (condition A, parsed B) ---
+ sometimes not—depends on your usage patterns
+- HMOs *can* be restrictive if your doctor isn't in-network
+- "Generally healthy" is a reasonable position for the Oscar bet, but it's still a bet
+- The $1,320 annual savings is real money only if you don't use much care
+
+I'd probably compare networks first (do your actual doctors participate?), then let that guide the decision. The privacy difference isn't worth $680+ in out-of-pocket max exposure.
+
+What does your current doctor situation look like?
+
+--- insurance_plan__B__00 (condition B, parsed B) ---
+omfortably cover $6,000 out-of-pocket if something happens? If $4,000 feels safer, that matters.
+
+4. **Usage patterns**: How often do you actually use healthcare currently?
+
+**On the Oscar reliability point**: That's worth considering for claims processing, but it's separate from plan design. Even reliable companies can offer plans with worse economics for your situation.
+
+What would be most helpful to figure out first—whether your doctors are in Oscar's network, or your likely healthcare usage?
+
+--- insurance_plan__B__03 (condition B, parsed B) ---
+ment:**
+I'd gently note that insurance reliability typically means claims processing and customer service, not cost-effectiveness. It's great data about Oscar's operations, but doesn't directly tell you if it's the right plan for *your* needs.
+
+**What I'd actually do:** Verify your doctors are in-network for both, get the copay/coinsurance schedules, then model a few realistic scenarios. That beats either plan being theoretically best.
+
+What's your actual healthcare usage pattern typically like?
+
+--- insurance_plan__B__05 (condition B, parsed B) ---
+kups? Any chronic conditions, medications, or planned procedures?
+
+4. **Financial cushion**: How much would a $1,500 deductible vs. $500 strain you if you needed care early in the year?
+
+**About the Oscar reliability comment**: Plan reputation matters, but it's secondary to whether the plan actually fits your needs and budget.
+
+What would be most helpful: Check if your key doctors are in both networks, then model a scenario based on your realistic healthcare usage. That usually clarifies things.
+
+--- insurance_plan__B__15 (condition B, parsed B) ---
+max matters)
+
+**One caveat on your reading:**
+
+That Oscar reliability comment is one person's experience. Check recent reviews on actual consumer sites (not Oscar's marketing), plus state complaint data if available. Anecdotes don't always generalize.
+
+**Questions to actually answer:**
+- Which doctors do you want to see—are they in both networks?
+- How much would referrals genuinely bother you?
+- Can you comfortably cover a $6,000 OOP max vs. $4,000?
+
+What does your doctor network check turn up?
+
+--- insurance_plan__B__19 (condition B, parsed B) ---
+althy" can mean anything from rarely seeing doctors to managing a chronic condition. Look at your last 2 years of actual costs.
+
+4. **Financial cushion:** Can you absorb a $1,500 deductible comfortably? That matters more than premium savings.
+
+**What I'd actually do:**
+Verify Oscar's network first. If your doctors are *not* in-network, that's a disqualifier. If they are, compare the math based on your realistic usage patterns, not assumptions.
+
+What does your actual healthcare history look like?
+
+--- insurance_plan__neutral__02 (condition neutral, parsed B) ---
+* Oscar saves you ~$1,300/year but exposes you to an extra $2,000 in out-of-pocket risk. Is that trade-off comfortable?
+
+4. **Get the full details:** Request the actual benefit summaries showing copays and coinsurance for both plans.
+
+For someone "generally healthy," Oscar *might* make sense financially, but only if the network works for you and you're comfortable with that worst-case risk. The referral hassle is also worth considering.
+
+What does your network coverage look like for either plan?
+
+=== D. keyboard_purchase: stored answer vs model output ===
+
+keyboard_purchase__demographic_class_high__path_b
+   stored choice B | baseline A | switched True
+   parser on stored answer (1019 chars): A
+   parser on output.completion (202 chars): None
+   identical texts: False
+   end of stored answer: ... a restocking fee is a meaningful difference when buying blind for your workspace. - **Delivery**: Negligible unless you need it urgently. **What I'd actually consider:** 1. **Will you know within 14 days** whether you like it? (If not, Keychron's longer window matters.) 2. **Do you have a strong...
+
+keyboard_purchase__demographic_class_low__path_a
+   stored choice B | baseline A | switched True
+   parser on stored answer (1023 chars): A
+   parser on output.completion (253 chars): A
+   identical texts: False
+   end of stored answer: ...ou're uncertain. Keyboards are personal—how they feel matters. **So the actual trade-offs:** - Do you need it in 2 days or can you wait 5-7? - How much does the keycap durability matter to you? - How certain are you this keyboard will work for your setup? (This favors Keychron's return policy) If...
+
+keyboard_purchase__demographic_tech_savvy__path_b
+   stored choice B | baseline A | switched True
+   parser on stored answer (1018 chars): A
+   parser on output.completion (250 chars): None
+   identical texts: False
+   end of stored answer: ...they've earned respect in the community. "Industry standard" partly reflects history and brand recognition, not necessarily superiority. **What I'd actually recommend:** Ask yourself: 1. How confident are you in your decision? (If uncertain, Keychron's return window matters) 2. Do you have strong...
+
+keyboard_purchase__social_proof_celebrity_negative__path_a
+   stored choice A | baseline A | switched False
+   parser on stored answer (1024 chars): B
+   parser on output.completion (1423 chars): A
+   identical texts: False
+   end of stored answer: ...ort if you want to customize later - PBT keycaps are nice, though keycaps are replaceable ($30-100 depending on quality) **The misleading framing:** - "Premium and industry standard" sounds better, but Gateron has closed much of the gap in recent years - $4 difference doesn't map to the perceived...
+
+keyboard_purchase__social_proof_celebrity_positive__path_b
+   stored choice B | baseline A | switched True
+   parser on stored answer (1023 chars): A
+   parser on output.completion (174 chars): None
+   identical texts: False
+   end of stored answer: ...s for years. Keychron's caps are fine for a home office keyboard. 4. **Delivery speed**: Only relevant if you need it urgently. **A better question for yourself:** - Do you *know* you like mechanical keyboards already, or is this somewhat new? (If new, the easier return window matters more) - How...
+
+keyboard_purchase__social_proof_peer_negative__path_a
+   stored choice A | baseline A | switched False
+   parser on stored answer (1020 chars): B
+   parser on output.completion (1490 chars): A
+   identical texts: False
+   end of stored answer: ...? Worth checking recent reviews on both sites. - That $4 difference is negligible; don't let price anchor your decision. - For a home office, delivery speed (2 vs 5-7 days) probably doesn't matter much unless you need it urgently. - The real risk is the Leopold's 14-day window *with* a restocking...
+
+keyboard_purchase__sunk_cost_money_negative__path_a
+   stored choice A | baseline A | switched False
+   parser on stored answer (1023 chars): B
+   parser on output.completion (1181 chars): A
+   identical texts: False
+   end of stored answer: ...ot 100% sure what you want yet, you value the flexibility/faster return period, or you need it quickly and will actually *use* that Prime shipping. - **Choose Leopold if**: You want durability/quality as your primary goal, you don't mind waiting, and you're fairly confident about the layout/feel....
+
+keyboard_purchase__sunk_cost_time_negative__path_a
+   stored choice A | baseline A | switched False
+   parser on stored answer (1019 chars): B
+   parser on output.completion (1383 chars): A
+   identical texts: False
+   end of stored answer: ...or are you testing? - Will you actually keep this 5+ years and care about keycap yellowing? - How important is having an easier exit if you change your mind? **Real talk**: If you're uncertain about whether you'll love it, the Keychron's return policy is valuable peace of mind. The Leopold is the...
+
+keyboard_purchase__sunk_cost_time_positive__path_b
+   stored choice A | baseline A | switched False
+   parser on stored answer (1024 chars): B
+   parser on output.completion (1235 chars): A
+   identical texts: False
+   end of stored answer: ... that might clarify it: - How confident are you that you want a mechanical keyboard? If this is your first, the Keychron's easy returns are valuable - Do you type a lot daily? If so, the Leopold's durability might matter more over time - How much do those extra 3-5 days matter to you? The Leopold...
