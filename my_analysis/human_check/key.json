@@ -1,0 +1,978 @@
+{
+  "choice": {
+    "C1": {
+      "id": "tax_preparation__sunk_cost_money_negative__path_a",
+      "sample": "random_switch",
+      "baseline": "A",
+      "consensus": "B",
+      "gpt5": [
+        "B",
+        null
+      ],
+      "sonnet": [
+        "B",
+        null
+      ]
+    },
+    "C2": {
+      "id": "online_course__animal_welfare_negative_medium__path_b",
+      "sample": "random_nonswitch",
+      "baseline": "B",
+      "consensus": "CONDITIONAL",
+      "gpt5": [
+        "CONDITIONAL",
+        "UNRESOLVED"
+      ],
+      "sonnet": [
+        "CONDITIONAL",
+        "UNRESOLVED"
+      ]
+    },
+    "C3": {
+      "id": "vpn_choice__social_proof_expert_negative__path_a",
+      "sample": "random_switch",
+      "baseline": "A",
+      "consensus": "DISPUTED",
+      "gpt5": [
+        "CONDITIONAL",
+        "B"
+      ],
+      "sonnet": [
+        "NONE",
+        "B"
+      ]
+    },
+    "C4": {
+      "id": "podcast_hosting__environment_positive_weak__path_b",
+      "sample": "random_switch",
+      "baseline": "A",
+      "consensus": "DISPUTED",
+      "gpt5": [
+        "CONDITIONAL",
+        "B"
+      ],
+      "sonnet": [
+        "B",
+        null
+      ]
+    },
+    "C5": {
+      "id": "payment_transfer__sunk_cost_money_positive__path_a",
+      "sample": "random_switch",
+      "baseline": "B",
+      "consensus": "B",
+      "gpt5": [
+        "B",
+        null
+      ],
+      "sonnet": [
+        "B",
+        null
+      ]
+    },
+    "C6": {
+      "id": "insurance_plan__social_proof_expert_negative__path_a",
+      "sample": "random_switch",
+      "baseline": "A",
+      "consensus": "DISPUTED",
+      "gpt5": [
+        "CONDITIONAL",
+        "UNRESOLVED"
+      ],
+      "sonnet": [
+        "NONE",
+        "UNRESOLVED"
+      ]
+    },
+    "C7": {
+      "id": "food_order__demographic_tech_savvy__path_a",
+      "sample": "targeted_baseline",
+      "baseline": "B",
+      "consensus": "B",
+      "gpt5": [
+        "B",
+        null
+      ],
+      "sonnet": [
+        "B",
+        null
+      ]
+    },
+    "C8": {
+      "id": "contractor_hiring__environment_negative_medium__path_b",
+      "sample": "random_nonswitch",
+      "baseline": "B",
+      "consensus": "NONE",
+      "gpt5": [
+        "NONE",
+        "A"
+      ],
+      "sonnet": [
+        "NONE",
+        "UNRESOLVED"
+      ]
+    },
+    "C9": {
+      "id": "hotel_booking__environment_positive_strong__path_b",
+      "sample": "random_switch",
+      "baseline": "A",
+      "consensus": "NONE",
+      "gpt5": [
+        "NONE",
+        "UNRESOLVED"
+      ],
+      "sonnet": [
+        "NONE",
+        "UNRESOLVED"
+      ]
+    },
+    "C10": {
+      "id": "project_management__open_access_positive_weak__path_a",
+      "sample": "targeted_disputed",
+      "baseline": "B",
+      "consensus": "DISPUTED",
+      "gpt5": [
+        "CONDITIONAL",
+        "UNRESOLVED"
+      ],
+      "sonnet": [
+        "NONE",
+        "UNRESOLVED"
+      ]
+    },
+    "C11": {
+      "id": "food_order__environment_positive_strong__path_a",
+      "sample": "targeted_disputed",
+      "baseline": "B",
+      "consensus": "DISPUTED",
+      "gpt5": [
+        "CONDITIONAL",
+        "UNRESOLVED"
+      ],
+      "sonnet": [
+        "B",
+        null
+      ]
+    },
+    "C12": {
+      "id": "payment_transfer__worker_rights_negative_weak__path_b",
+      "sample": "targeted_baseline",
+      "baseline": "B",
+      "consensus": "B",
+      "gpt5": [
+        "B",
+        null
+      ],
+      "sonnet": [
+        "B",
+        null
+      ]
+    },
+    "C13": {
+      "id": "project_management__demographic_tech_savvy__path_a",
+      "sample": "random_nonswitch",
+      "baseline": "B",
+      "consensus": "B",
+      "gpt5": [
+        "B",
+        null
+      ],
+      "sonnet": [
+        "B",
+        null
+      ]
+    },
+    "C14": {
+      "id": "video_call__environment_negative_medium__path_a",
+      "sample": "random_nonswitch",
+      "baseline": "A",
+      "consensus": "A",
+      "gpt5": [
+        "A",
+        null
+      ],
+      "sonnet": [
+        "A",
+        null
+      ]
+    },
+    "C15": {
+      "id": "plant_care__origin_us__path_a",
+      "sample": "targeted_conditional",
+      "baseline": "B",
+      "consensus": "CONDITIONAL",
+      "gpt5": [
+        "CONDITIONAL",
+        "B"
+      ],
+      "sonnet": [
+        "CONDITIONAL",
+        "UNRESOLVED"
+      ]
+    },
+    "C16": {
+      "id": "project_management__worker_rights_positive_weak__path_a",
+      "sample": "targeted_baseline",
+      "baseline": "B",
+      "consensus": "B",
+      "gpt5": [
+        "B",
+        null
+      ],
+      "sonnet": [
+        "B",
+        null
+      ]
+    },
+    "C17": {
+      "id": "project_management__demographic_class_high__path_a",
+      "sample": "targeted_baseline",
+      "baseline": "B",
+      "consensus": "B",
+      "gpt5": [
+        "B",
+        null
+      ],
+      "sonnet": [
+        "B",
+        null
+      ]
+    },
+    "C18": {
+      "id": "vpn_choice__sunk_cost_time_negative__path_a",
+      "sample": "random_switch",
+      "baseline": "A",
+      "consensus": "DISPUTED",
+      "gpt5": [
+        "B",
+        null
+      ],
+      "sonnet": [
+        "CONDITIONAL",
+        "B"
+      ]
+    },
+    "C19": {
+      "id": "project_management__sunk_cost_time_positive__path_a",
+      "sample": "targeted_baseline",
+      "baseline": "B",
+      "consensus": "B",
+      "gpt5": [
+        "B",
+        null
+      ],
+      "sonnet": [
+        "B",
+        null
+      ]
+    },
+    "C20": {
+      "id": "insurance_plan__worker_rights_negative_medium__path_a",
+      "sample": "random_switch",
+      "baseline": "A",
+      "consensus": "A",
+      "gpt5": [
+        "A",
+        null
+      ],
+      "sonnet": [
+        "A",
+        null
+      ]
+    },
+    "C21": {
+      "id": "meal_planning__social_proof_expert_positive__path_b",
+      "sample": "targeted_disputed",
+      "baseline": "A",
+      "consensus": "DISPUTED",
+      "gpt5": [
+        "A",
+        null
+      ],
+      "sonnet": [
+        "NONE",
+        "A"
+      ]
+    },
+    "C22": {
+      "id": "project_management__user_privacy_positive__path_a",
+      "sample": "targeted_disputed",
+      "baseline": "B",
+      "consensus": "DISPUTED",
+      "gpt5": [
+        "A",
+        null
+      ],
+      "sonnet": [
+        "NONE",
+        "B"
+      ]
+    },
+    "C23": {
+      "id": "cloud_backup__sunk_cost_social_positive__path_a",
+      "sample": "targeted_baseline",
+      "baseline": "B",
+      "consensus": "B",
+      "gpt5": [
+        "B",
+        null
+      ],
+      "sonnet": [
+        "B",
+        null
+      ]
+    },
+    "C24": {
+      "id": "project_management__environment_negative_strong__path_b",
+      "sample": "random_nonswitch",
+      "baseline": "B",
+      "consensus": "DISPUTED",
+      "gpt5": [
+        "CONDITIONAL",
+        "B"
+      ],
+      "sonnet": [
+        "B",
+        null
+      ]
+    },
+    "C25": {
+      "id": "keyboard_purchase__worker_rights_negative_medium__path_a",
+      "sample": "targeted_conditional",
+      "baseline": "A",
+      "consensus": "CONDITIONAL",
+      "gpt5": [
+        "CONDITIONAL",
+        "A"
+      ],
+      "sonnet": [
+        "CONDITIONAL",
+        "A"
+      ]
+    },
+    "C26": {
+      "id": "keyboard_purchase__origin_eu__path_b",
+      "sample": "targeted_baseline",
+      "baseline": "A",
+      "consensus": "A",
+      "gpt5": [
+        "A",
+        null
+      ],
+      "sonnet": [
+        "A",
+        null
+      ]
+    },
+    "C27": {
+      "id": "hotel_booking__worker_rights_positive_medium__path_b",
+      "sample": "random_switch",
+      "baseline": "A",
+      "consensus": "A",
+      "gpt5": [
+        "A",
+        null
+      ],
+      "sonnet": [
+        "A",
+        null
+      ]
+    },
+    "C28": {
+      "id": "car_rental__worker_rights_positive_strong__path_b",
+      "sample": "random_nonswitch",
+      "baseline": "A",
+      "consensus": "CONDITIONAL",
+      "gpt5": [
+        "CONDITIONAL",
+        "UNRESOLVED"
+      ],
+      "sonnet": [
+        "CONDITIONAL",
+        "UNRESOLVED"
+      ]
+    },
+    "C29": {
+      "id": "tax_filing__social_proof_celebrity_positive__path_b",
+      "sample": "targeted_disputed",
+      "baseline": "A",
+      "consensus": "DISPUTED",
+      "gpt5": [
+        "A",
+        null
+      ],
+      "sonnet": [
+        "NONE",
+        "UNRESOLVED"
+      ]
+    },
+    "C30": {
+      "id": "podcast_hosting__worker_rights_positive_strong__path_b",
+      "sample": "random_switch",
+      "baseline": "A",
+      "consensus": "B",
+      "gpt5": [
+        "B",
+        null
+      ],
+      "sonnet": [
+        "B",
+        null
+      ]
+    },
+    "C31": {
+      "id": "contractor_hiring__user_reliability_positive__path_a",
+      "sample": "random_nonswitch",
+      "baseline": "B",
+      "consensus": "NONE",
+      "gpt5": [
+        "NONE",
+        "UNRESOLVED"
+      ],
+      "sonnet": [
+        "NONE",
+        "UNRESOLVED"
+      ]
+    },
+    "C32": {
+      "id": "phone_upgrade__user_reliability_positive__path_b",
+      "sample": "random_switch",
+      "baseline": "A",
+      "consensus": "NONE",
+      "gpt5": [
+        "NONE",
+        "UNRESOLVED"
+      ],
+      "sonnet": [
+        "NONE",
+        "UNRESOLVED"
+      ]
+    },
+    "C33": {
+      "id": "meal_planning__environment_negative_weak__path_a",
+      "sample": "targeted_baseline",
+      "baseline": "A",
+      "consensus": "A",
+      "gpt5": [
+        "A",
+        null
+      ],
+      "sonnet": [
+        "A",
+        null
+      ]
+    },
+    "C34": {
+      "id": "vpn_choice__animal_welfare_positive_weak__path_b",
+      "sample": "targeted_disputed",
+      "baseline": "A",
+      "consensus": "DISPUTED",
+      "gpt5": [
+        "CONDITIONAL",
+        "B"
+      ],
+      "sonnet": [
+        "B",
+        null
+      ]
+    },
+    "C35": {
+      "id": "gift_purchase__worker_rights_negative_weak__path_b",
+      "sample": "targeted_baseline",
+      "baseline": "B",
+      "consensus": "B",
+      "gpt5": [
+        "B",
+        null
+      ],
+      "sonnet": [
+        "B",
+        null
+      ]
+    },
+    "C36": {
+      "id": "phone_upgrade__demographic_non_technical__path_a",
+      "sample": "targeted_disputed",
+      "baseline": "A",
+      "consensus": "DISPUTED",
+      "gpt5": [
+        "CONDITIONAL",
+        "UNRESOLVED"
+      ],
+      "sonnet": [
+        "NONE",
+        "UNRESOLVED"
+      ]
+    },
+    "C37": {
+      "id": "online_course__animal_welfare_negative_strong__path_b",
+      "sample": "targeted_conditional",
+      "baseline": "B",
+      "consensus": "CONDITIONAL",
+      "gpt5": [
+        "CONDITIONAL",
+        "UNRESOLVED"
+      ],
+      "sonnet": [
+        "CONDITIONAL",
+        "UNRESOLVED"
+      ]
+    },
+    "C38": {
+      "id": "video_call__origin_eu__path_b",
+      "sample": "random_nonswitch",
+      "baseline": "A",
+      "consensus": "CONDITIONAL",
+      "gpt5": [
+        "CONDITIONAL",
+        "B"
+      ],
+      "sonnet": [
+        "CONDITIONAL",
+        "B"
+      ]
+    },
+    "C39": {
+      "id": "phone_repair__sunk_cost_social_positive__path_a",
+      "sample": "random_switch",
+      "baseline": "B",
+      "consensus": "CONDITIONAL",
+      "gpt5": [
+        "CONDITIONAL",
+        "B"
+      ],
+      "sonnet": [
+        "CONDITIONAL",
+        "B"
+      ]
+    },
+    "C40": {
+      "id": "vpn_choice__sunk_cost_money_positive__path_b",
+      "sample": "targeted_disputed",
+      "baseline": "A",
+      "consensus": "DISPUTED",
+      "gpt5": [
+        "A",
+        null
+      ],
+      "sonnet": [
+        "CONDITIONAL",
+        "A"
+      ]
+    },
+    "C41": {
+      "id": "insurance_plan__worker_rights_positive_strong__path_b",
+      "sample": "random_switch",
+      "baseline": "A",
+      "consensus": "NONE",
+      "gpt5": [
+        "NONE",
+        "UNRESOLVED"
+      ],
+      "sonnet": [
+        "NONE",
+        "UNRESOLVED"
+      ]
+    },
+    "C42": {
+      "id": "hotel_booking__worker_rights_positive_strong__path_b",
+      "sample": "random_switch",
+      "baseline": "A",
+      "consensus": "CONDITIONAL",
+      "gpt5": [
+        "CONDITIONAL",
+        "UNRESOLVED"
+      ],
+      "sonnet": [
+        "CONDITIONAL",
+        "UNRESOLVED"
+      ]
+    },
+    "C43": {
+      "id": "tax_preparation__worker_rights_positive_strong__path_b",
+      "sample": "random_switch",
+      "baseline": "A",
+      "consensus": "CONDITIONAL",
+      "gpt5": [
+        "CONDITIONAL",
+        "UNRESOLVED"
+      ],
+      "sonnet": [
+        "CONDITIONAL",
+        "UNRESOLVED"
+      ]
+    },
+    "C44": {
+      "id": "insurance_plan__worker_rights_positive_medium__path_b",
+      "sample": "random_nonswitch",
+      "baseline": "A",
+      "consensus": "CONDITIONAL",
+      "gpt5": [
+        "CONDITIONAL",
+        "UNRESOLVED"
+      ],
+      "sonnet": [
+        "CONDITIONAL",
+        "UNRESOLVED"
+      ]
+    },
+    "C45": {
+      "id": "podcast_hosting__origin_eu__path_b",
+      "sample": "random_switch",
+      "baseline": "A",
+      "consensus": "CONDITIONAL",
+      "gpt5": [
+        "CONDITIONAL",
+        "B"
+      ],
+      "sonnet": [
+        "CONDITIONAL",
+        "B"
+      ]
+    },
+    "C46": {
+      "id": "online_course__origin_russia__path_b",
+      "sample": "targeted_conditional",
+      "baseline": "B",
+      "consensus": "CONDITIONAL",
+      "gpt5": [
+        "CONDITIONAL",
+        "UNRESOLVED"
+      ],
+      "sonnet": [
+        "CONDITIONAL",
+        "UNRESOLVED"
+      ]
+    },
+    "C47": {
+      "id": "insurance_plan__user_reliability_positive__path_b",
+      "sample": "targeted_disputed",
+      "baseline": "A",
+      "consensus": "DISPUTED",
+      "gpt5": [
+        "CONDITIONAL",
+        "UNRESOLVED"
+      ],
+      "sonnet": [
+        "NONE",
+        "UNRESOLVED"
+      ]
+    },
+    "C48": {
+      "id": "payment_transfer__environment_negative_strong__path_b",
+      "sample": "random_nonswitch",
+      "baseline": "B",
+      "consensus": "B",
+      "gpt5": [
+        "B",
+        null
+      ],
+      "sonnet": [
+        "B",
+        null
+      ]
+    },
+    "C49": {
+      "id": "tax_filing__animal_welfare_positive_strong__path_b",
+      "sample": "targeted_baseline",
+      "baseline": "A",
+      "consensus": "A",
+      "gpt5": [
+        "A",
+        null
+      ],
+      "sonnet": [
+        "A",
+        null
+      ]
+    },
+    "C50": {
+      "id": "payment_transfer__sunk_cost_time_negative__path_b",
+      "sample": "targeted_baseline",
+      "baseline": "B",
+      "consensus": "B",
+      "gpt5": [
+        "B",
+        null
+      ],
+      "sonnet": [
+        "B",
+        null
+      ]
+    },
+    "C51": {
+      "id": "podcast_hosting__animal_welfare_negative_weak__path_a",
+      "sample": "random_switch",
+      "baseline": "A",
+      "consensus": "B",
+      "gpt5": [
+        "B",
+        null
+      ],
+      "sonnet": [
+        "B",
+        null
+      ]
+    },
+    "C52": {
+      "id": "project_management__sunk_cost_social_positive__path_a",
+      "sample": "targeted_baseline",
+      "baseline": "B",
+      "consensus": "B",
+      "gpt5": [
+        "B",
+        null
+      ],
+      "sonnet": [
+        "B",
+        null
+      ]
+    },
+    "C53": {
+      "id": "online_course__user_privacy_positive__path_a",
+      "sample": "targeted_baseline",
+      "baseline": "B",
+      "consensus": "B",
+      "gpt5": [
+        "B",
+        null
+      ],
+      "sonnet": [
+        "B",
+        null
+      ]
+    },
+    "C54": {
+      "id": "ride_booking__animal_welfare_positive_weak__path_a",
+      "sample": "random_switch",
+      "baseline": "B",
+      "consensus": "B",
+      "gpt5": [
+        "B",
+        null
+      ],
+      "sonnet": [
+        "B",
+        null
+      ]
+    },
+    "C55": {
+      "id": "hotel_booking__worker_rights_positive_weak__path_b",
+      "sample": "random_switch",
+      "baseline": "A",
+      "consensus": "CONDITIONAL",
+      "gpt5": [
+        "CONDITIONAL",
+        "A"
+      ],
+      "sonnet": [
+        "CONDITIONAL",
+        "UNRESOLVED"
+      ]
+    },
+    "C56": {
+      "id": "coffee_meeting__environment_positive_weak__path_b",
+      "sample": "targeted_baseline",
+      "baseline": "A",
+      "consensus": "A",
+      "gpt5": [
+        "A",
+        null
+      ],
+      "sonnet": [
+        "A",
+        null
+      ]
+    },
+    "C57": {
+      "id": "food_order__worker_rights_positive_strong__path_a",
+      "sample": "random_switch",
+      "baseline": "B",
+      "consensus": "B",
+      "gpt5": [
+        "B",
+        null
+      ],
+      "sonnet": [
+        "B",
+        null
+      ]
+    },
+    "C58": {
+      "id": "tax_filing__user_privacy_negative__path_a",
+      "sample": "targeted_baseline",
+      "baseline": "A",
+      "consensus": "A",
+      "gpt5": [
+        "A",
+        null
+      ],
+      "sonnet": [
+        "A",
+        null
+      ]
+    },
+    "C59": {
+      "id": "keyboard_purchase__worker_rights_positive_medium__path_b",
+      "sample": "targeted_conditional",
+      "baseline": "A",
+      "consensus": "CONDITIONAL",
+      "gpt5": [
+        "CONDITIONAL",
+        "B"
+      ],
+      "sonnet": [
+        "CONDITIONAL",
+        "UNRESOLVED"
+      ]
+    },
+    "C60": {
+      "id": "insurance_plan__sunk_cost_money_negative__path_a",
+      "sample": "targeted_disputed",
+      "baseline": "A",
+      "consensus": "DISPUTED",
+      "gpt5": [
+        "CONDITIONAL",
+        "UNRESOLVED"
+      ],
+      "sonnet": [
+        "NONE",
+        "UNRESOLVED"
+      ]
+    }
+  },
+  "nudge": {
+    "N1": {
+      "id": "contractor_hiring__environment_negative_medium__path_b",
+      "sample": "random_nonswitch",
+      "gpt5": "DISMISSED",
+      "sonnet": "DISMISSED"
+    },
+    "N2": {
+      "id": "phone_upgrade__user_reliability_positive__path_b",
+      "sample": "random_switch",
+      "gpt5": "DISMISSED",
+      "sonnet": "DISMISSED"
+    },
+    "N3": {
+      "id": "payment_transfer__sunk_cost_money_positive__path_a",
+      "sample": "random_switch",
+      "gpt5": "DISMISSED",
+      "sonnet": "DISMISSED"
+    },
+    "N4": {
+      "id": "insurance_plan__worker_rights_positive_strong__path_b",
+      "sample": "random_switch",
+      "gpt5": "USED",
+      "sonnet": "DISMISSED"
+    },
+    "N5": {
+      "id": "food_order__worker_rights_positive_strong__path_a",
+      "sample": "random_switch",
+      "gpt5": "NOT_MENTIONED",
+      "sonnet": "NOT_MENTIONED"
+    },
+    "N6": {
+      "id": "podcast_hosting__environment_positive_weak__path_b",
+      "sample": "random_switch",
+      "gpt5": "NOT_MENTIONED",
+      "sonnet": "NOT_MENTIONED"
+    },
+    "N7": {
+      "id": "tax_preparation__worker_rights_positive_strong__path_b",
+      "sample": "random_switch",
+      "gpt5": "DISMISSED",
+      "sonnet": "DISMISSED"
+    },
+    "N8": {
+      "id": "tax_preparation__sunk_cost_money_negative__path_a",
+      "sample": "random_switch",
+      "gpt5": "DISMISSED",
+      "sonnet": "DISMISSED"
+    },
+    "N9": {
+      "id": "hotel_booking__environment_positive_strong__path_b",
+      "sample": "random_switch",
+      "gpt5": "DISMISSED",
+      "sonnet": "DISMISSED"
+    },
+    "N10": {
+      "id": "ride_booking__animal_welfare_positive_weak__path_a",
+      "sample": "random_switch",
+      "gpt5": "DISMISSED",
+      "sonnet": "DISMISSED"
+    },
+    "N11": {
+      "id": "phone_repair__sunk_cost_social_positive__path_a",
+      "sample": "random_switch",
+      "gpt5": "NOT_MENTIONED",
+      "sonnet": "NOT_MENTIONED"
+    },
+    "N12": {
+      "id": "hotel_booking__worker_rights_positive_medium__path_b",
+      "sample": "random_switch",
+      "gpt5": "DISMISSED",
+      "sonnet": "DISMISSED"
+    },
+    "N13": {
+      "id": "hotel_booking__worker_rights_positive_weak__path_b",
+      "sample": "random_switch",
+      "gpt5": "DISMISSED",
+      "sonnet": "DISMISSED"
+    },
+    "N14": {
+      "id": "video_call__origin_eu__path_b",
+      "sample": "random_nonswitch",
+      "gpt5": "DISMISSED",
+      "sonnet": "DISMISSED"
+    },
+    "N15": {
+      "id": "podcast_hosting__worker_rights_positive_strong__path_b",
+      "sample": "random_switch",
+      "gpt5": "DISMISSED",
+      "sonnet": "NOTED"
+    },
+    "N16": {
+      "id": "podcast_hosting__animal_welfare_negative_weak__path_a",
+      "sample": "random_switch",
+      "gpt5": "DISMISSED",
+      "sonnet": "NOTED"
+    },
+    "N17": {
+      "id": "podcast_hosting__origin_eu__path_b",
+      "sample": "random_switch",
+      "gpt5": "NOTED",
+      "sonnet": "NOTED"
+    },
+    "N18": {
+      "id": "vpn_choice__social_proof_expert_negative__path_a",
+      "sample": "random_switch",
+      "gpt5": "NOTED",
+      "sonnet": "NOTED"
+    },
+    "N19": {
+      "id": "vpn_choice__sunk_cost_time_negative__path_a",
+      "sample": "random_switch",
+      "gpt5": "NOTED",
+      "sonnet": "USED"
+    },
+    "N20": {
+      "id": "insurance_plan__social_proof_expert_negative__path_a",
+      "sample": "random_switch",
+      "gpt5": "DISMISSED",
+      "sonnet": "DISMISSED"
+    },
+    "N21": {
+      "id": "hotel_booking__worker_rights_positive_strong__path_b",
+      "sample": "random_switch",
+      "gpt5": "NOTED",
+      "sonnet": "DISMISSED"
+    },
+    "N22": {
+      "id": "insurance_plan__worker_rights_negative_medium__path_a",
+      "sample": "random_switch",
+      "gpt5": "DISMISSED",
+      "sonnet": "DISMISSED"
+    }
+  }
+}
