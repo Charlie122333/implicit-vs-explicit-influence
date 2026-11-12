@@ -1,3 +1,7 @@
+> **This fork adds an audit of how Setting 1 extracts choices.**
+> See [`my_analysis/README.md`](my_analysis/README.md) for the findings and how to reproduce them.
+
+
 # Auditing choice extraction in Setting 1 of the implicit-influence benchmark
 
 An audit of how Setting 1 of Duzan & Cooper Stickland (2026), *Chain-of-Thought
@@ -8,7 +12,7 @@ switched its choice. Model: Claude Haiku 4.5. Condition: implicit delivery.
 ## Results
 
 | Measure (1,021 answers) | Parser (paper's method) | Audited, strict | Audited, lenient |
-|                         |                         |                 |                  |
+| --- | --- | --- | --- |
 | Switch rate             | 40.2%                   | 18.0–24.0%      | 23.4–33.1%       |
 | Detection among switches| 12.0%                   | 18.5–20.3%      | 18.8–21.5%       |
 
