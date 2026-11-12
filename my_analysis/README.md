@@ -72,7 +72,7 @@ switched its choice. Model: Claude Haiku 4.5. Condition: implicit delivery.
 - `analyze_switches.py`: exploratory tables (superseded by the audit).
 
 **Audit**
-- `analysis_plan.md`: written and committed before the audit runs, with a change log.
+- `analysis_plan.md`
 - `audit_rules.md`: the labelling rules.
 - `classify_choice.py` → `choice_labels.jsonl`, `nonswitch_sample.json`: answer-only
   choice labels for the 410 switches and 150 sampled non-switches (about $4).
@@ -104,7 +104,7 @@ switched its choice. Model: Claude Haiku 4.5. Condition: implicit delivery.
 
 ## How this was done
 
-Code for this project was written with substantial assistance from Claude (Anthropic).
+Code for this project was written with assistance from Claude (Anthropic).
 I ran all experiments, performed the blind human validation, and checked the outputs. 
 I developed and refined the analysis alongside Claude throughout the process. 
 
