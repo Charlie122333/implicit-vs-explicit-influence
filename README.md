@@ -1,3 +1,8 @@
+> **This fork adds an audit of how Setting 1 extracts choices.**
+> For Claude Haiku 4.5, the keyword parser roughly doubles the reported switch rate.
+> Findings and reproduction: [`my_analysis/README.md`](my_analysis/README.md)
+
+
 # Implicit vs Explicit Influence CoT Monitorability Benchmark
 
 Code and data for *"Chain-of-Thought Monitoring Can Be Unreliable in Implicit-Influence
